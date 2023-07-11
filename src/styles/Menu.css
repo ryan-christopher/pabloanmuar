@@ -1,0 +1,325 @@
+.mask {
+    height: 100%;
+    width: 100%;
+    background: rgba(28, 28, 28, 0.5);
+    backdrop-filter: blur(5px) saturate(100%);
+    -webkit-backdrop-filter: blur(5px) saturate(100%);
+    display: block;
+    position: fixed;
+    z-index: 102;
+    top: 0;
+    left: 100vw;
+    transition: all 0.25s;
+}
+
+.mask.active {
+    left: 0;
+    transition: all 0.25s;
+}
+
+.mobilemenu-body {
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+}
+
+.mobilemenu-group {
+    cursor: pointer;
+}
+
+.mobilemenu-dropdown {
+    position: relative;
+}
+
+.mobilemenu-dropdown:before {
+    height: 28px;
+    width: 18px;
+    background-repeat: no-repeat !important;
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 24px;
+}
+
+.mobilemenu-link-back {
+    position: relative;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mobilemenu-link-back:before {
+    font-size: 15px;
+    color: #f9f5e9;
+    float: right;
+    position: absolute;
+    right: 12px;
+}
+
+.mobilemenu-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 10px 10px;
+    padding-top: 18px;
+    width: 10vw;
+    min-width: 265px;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+    transition: all 0.25s;
+}
+
+
+.mobilemenu-link:hover {
+    transform: scale(1.1);
+    transition: all 0.45s;
+}
+
+.mobilemenu-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    display: none;
+    z-index: -1;
+}
+
+.mobilemenu-overlay:before {
+    height: 8px;
+    width: 25px;
+    top: 40px;
+    right: 5px;
+    content: "";
+    background-repeat: no-repeat !important;
+    position: absolute;
+}
+
+.mobilemenu-overlay.active {
+    display: block;
+}
+
+.mobilemenu {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: fixed;
+    height: 100vh;
+    z-index: 103;
+    right: -80vw;
+    width: 80vw;
+    max-width: 500px;
+    top: 0px;
+}
+
+.mobilemenu.active {
+    right: 0;
+}
+
+.mobilebutton {
+    cursor: pointer;
+    height: 58px;
+    right: 15px;
+    top: 6px;
+    position: fixed;
+    text-align: center;
+    transform: translateX(0%);
+    width: 60px;
+    z-index: 3;
+    padding: 10px 14px 10px 14px;
+}
+
+.mobilebutton.active .burgermiddle,
+.mobilebutton.active .burgertop,
+.mobilebutton.active .burgerbottom {
+    opacity: 0;
+}
+
+.mobilebutton .burgertop,
+.mobilebutton .burgermiddle,
+.mobilebutton .burgerbottom {
+    width: 100%;
+    height: 3px;
+    margin: 8px auto;
+    border-radius: 2px;
+    backface-visibility: hidden;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.mobilebutton {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+
+    /*
+.mobilebutton:hover>.burgerbottom,
+.mobilebutton:hover>.burgermiddle,
+.mobilebutton:hover>.burgertop {
+    background-color: #ec5151;
+}
+*/
+
+@media screen and (max-width:10px) {
+    .mobilebutton {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-80px);
+        transition: all 0.5s;
+    }
+}
+
+
+ul>li>ul {
+    visibility: hidden;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+ul>li:hover>ul {
+    visibility: visible;
+    transform: translateY(0px);
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.2s;
+}
+
+ul>li>ul.activesubmenu {
+    visibility: visible;
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.mobilenavbar {
+    visibility: visible;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72px;
+    z-index: 2;
+}
+
+h3#headername {
+    position: fixed;
+    font-size: 35px;
+    width: 330px;
+    left: 2vw;
+    top: 12px;
+    margin: 0;
+    z-index: 10;
+}
+
+@media (max-width: 430px ){
+    h3#headername{
+        font-size: 25px;
+        top: 20px;
+    }
+}
+@media (max-width: 370px) {
+    h3#headername {
+      font-size: 20px;
+      top: 23px;
+    }
+  }
+
+
+  /* Start desktop link styling */
+  @media screen and (min-width:701px) {
+    .mobilebutton {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-80px);
+      transition: all 0.5s;
+    }
+  }
+  
+  @media screen and (max-width:700px) {
+    nav {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-150px);
+      transition: all 0.5s;
+    }
+}
+
+
+  nav {
+    width: 100%;
+    min-width: 600px;
+    position: fixed;
+    z-index: 100;
+    transition: all 0.75s;
+  }
+  
+  .desktopnavlinks {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0px 0px;
+    height: 72px;
+  }
+  
+  .desktopnavlinks * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  
+  .desktopnavlinks li {
+    display: inline-block;
+    list-style: outside none none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1%;
+    margin-left: 3%;
+    padding: 0;
+  }
+  
+  .desktopnavlinks li:last-child {
+    margin-right: 5vw;
+  }
+  
+  .desktopnavlinks a {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .desktopnavlinks a:before {
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.5s ease;
+    transition: all .5s ease;
+    opacity: 0;
+    top: 25%;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid white;
+  }
+  
+  .desktopnavlinks a:hover:before,
+  .desktopnavlinks .active a:before {
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+  }

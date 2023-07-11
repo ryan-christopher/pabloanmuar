@@ -8,7 +8,9 @@ font-family: 'Bungee Shade', cursive;
 font-family: 'Fredoka', sans-serif;
 font-family: 'Mynerve', cursive;
 */
-
+html{
+  scroll-behavior: smooth;
+}
 
 .flex-container {
     display: flex;
