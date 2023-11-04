@@ -27,9 +27,9 @@ function Navbar() {
                 </div>
             </nav>
 
-            <h3 id="headername" className='text-[#e9f1f7] font-["Mynerve"] font-bold ease-in duration-200'>Pablo Anmuar</h3>
+            <h3 id="headername" className='text-[#363636] font-["Mynerve"] uppercase font-bold ease-in duration-200'>Pablo.Anmuar</h3>
 
-            <div className="mobilenavbar bg-[#272727ae] backdrop-blur-sm ease-in duration-200">
+            <div className="mobilenavbar bg-[#d8d8d8ae] backdrop-blur-sm ease-in duration-200">
             </div>
 
             <div className="mobilemenu bg-[#e9f1f7]">

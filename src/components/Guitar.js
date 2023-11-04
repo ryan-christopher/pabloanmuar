@@ -16,7 +16,7 @@ const Model = () => {
 function Guitar() {
     return (
         <div>
-            <Canvas frameloop="demand" className='block ml-auto mr-auto !h-[400px] !w-[300px] hover:cursor-pointer'>
+            <Canvas frameloop="demand" className='block ml-auto mr-auto !h-[400px] !w-[300px] hover:cursor-pointer xl:mt-[200px]'>
                 <ambientLight intensity={1.5} />
                 <Suspense fallback={null}>
                     <OrbitControls autoRotate={true} autoRotateSpeed={3.0} enableZoom={false} enablePan={false} minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} />

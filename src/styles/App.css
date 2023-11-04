@@ -35,3 +35,34 @@ html{
       flex-direction: column;
     }
 }
+
+.flex-container-social {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 21px;
+  margin-bottom: 40px;
+}
+
+.flex-container-social>div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 82px;
+  font-size: 40px;
+}
+
+.social-link {
+  display: block;
+  padding: 0px;
+  width: 70px;
+  height: 70px;
+  transform: scale(1);
+  transition: all 0.4s;
+}
+
+.social-link:hover {
+  transform: scale(1.4);
+  transition: all 0.2s;
+}
