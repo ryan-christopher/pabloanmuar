@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SongCard({ name, photo }) {
+function musicEntry({ name, photo }) {
     let cardStyle = { backgroundImage: "url(" + photo + ")" }
     return (
         <div style={cardStyle} className='w-[200px] h-[200px] bg-no-repeat bg-cover grid'>
@@ -11,4 +11,4 @@ function SongCard({ name, photo }) {
     )
 }
 
-export default SongCard
+export default musicEntry
