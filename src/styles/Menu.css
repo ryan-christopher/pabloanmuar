@@ -294,8 +294,7 @@ h3#headername {
   }
   
   .desktopnavlinks a {
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 10px;
     color: rgb(13, 13, 13);
     position: relative;
     text-decoration: none;

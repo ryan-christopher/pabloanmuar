@@ -18,7 +18,7 @@ function Navbar() {
 
             <nav>
                 <div id="overlay">
-                    <ul className="desktopnavlinks font-['Mynerve'] text-[25px]">
+                    <ul className="desktopnavlinks font-['Yatra_One'] text-[30px]">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#about">About</a></li>
@@ -27,16 +27,16 @@ function Navbar() {
                 </div>
             </nav>
 
-            <h3 id="headername" className='text-[#363636] font-["Mynerve"] uppercase font-bold ease-in duration-200'>Pablo.Anmuar</h3>
+            <h3 id="headername" className='text-[#222725] font-["Yatra_One"] uppercase font-bold ease-in duration-200'>Pablo.Anmuar</h3>
 
-            <div className="mobilenavbar bg-[#d8d8d8ae] backdrop-blur-sm ease-in duration-200">
+            <div className="mobilenavbar bg-[#e9f1f7c0] backdrop-blur-sm ease-in duration-200">
             </div>
 
             <div className="mobilemenu bg-[#e9f1f7]">
                 <div className="mobilebutton">
-                    <div className="burgertop bg-[#e9f1f7] ease-in duration-200"></div>
-                    <div className="burgermiddle bg-[#e9f1f7] ease-in duration-200"></div>
-                    <div className="burgerbottom bg-[#e9f1f7] ease-in duration-200"></div>
+                    <div className="burgertop bg-[#363636] ease-in duration-200"></div>
+                    <div className="burgermiddle bg-[#363636] ease-in duration-200"></div>
+                    <div className="burgerbottom bg-[#363636] ease-in duration-200"></div>
                 </div>
                 <div className="mobilemenu-body bg-[#e9f1f7]">
                     <div className='mobilebuttonclose absolute top-[20px] right-[22px] text-[35px] 
@@ -45,7 +45,7 @@ function Navbar() {
                         X
                     </div>
                     <div className="mobilemenu-overlay"></div>
-                    <div className="mobilemenu-container font-['Mynerve'] text-[#222725]">
+                    <div className="mobilemenu-container text-[#222725]">
                         {links}
                     </div>
                 </div>
