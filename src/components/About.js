@@ -4,14 +4,14 @@ import Guitar from '../components/Guitar'
 
 function About() {
     return (
-        <div>
+        <div id="about" className='bg-[#0e0e0e]'>
 
-            <div id="about" className='bg-[#0e0e0e]'>
+            <div >
                 <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[30vh] sm:h-[40vh] block ml-auto mr-auto">
-                    <ParallaxBannerLayer image="media/15.jpg" speed={10} />
+                    <ParallaxBannerLayer image="media/yellowjacket.jpg" speed={10} />
                     <ParallaxBannerLayer className='bg-[#21212138]' speed={0}>
 
-                        <h2 className='font-["Yatra_One"] text-white pt-[10vh] text-[60px] sm:text-[100px] md:text-[150px] lg:text-[150px] text-center'>
+                        <h2 className='font-["Yatra_One"] text-white pt-[23vh] text-[60px] sm:text-[100px] md:text-[150px] lg:text-[160px] text-left'>
                             About
                         </h2>
 
@@ -51,9 +51,7 @@ function About() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
-
 export default About
