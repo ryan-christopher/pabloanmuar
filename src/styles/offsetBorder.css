@@ -1,0 +1,113 @@
+.offsetBorder {
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+}
+
+.offsetBorder:before,
+.offsetBorder:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border: 2px solid;
+    border-radius: 5px;
+    height: calc(102.5% + 6px);
+    width: calc(102.5% + 6px);
+    transition: all 0.3s ease-in-out;
+}
+  
+.offsetBorder:before {
+    top: calc(-2.5% - 6px);
+    right: calc(-2.5% - 6px);
+}
+  
+.offsetBorder:after {
+    bottom: calc(-2.5% - 6px);
+    left: calc(-2.5% - 6px);
+}
+
+.offsetBorder:after,
+.offsetBorder:before {
+  transition: all 0.3s;
+}
+
+.offsetBorder:hover:after {
+  height: calc(102.5% + 6px);
+  width: calc(102.5% + 6px);
+}
+
+.offsetBorder:hover:before {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;  
+  transition: all 0.3s;
+}
+
+.offsetBorder:hover:after {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;  
+    transition: all 0.3s;
+}
+
+
+
+
+/*
+Original before changing amounts to percentages
+(keeping in case the new one above goes wrong)
+
+.offsetBorder {
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+    margin: 15px 30px;
+}
+
+.offsetBorder:before,
+.offsetBorder:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border: 2px solid;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+  
+.offsetBorder:before {
+    top: -6px;
+    right: -6px;
+}
+  
+.offsetBorder:after {
+    bottom: -6px;
+    left: -6px;
+}
+
+.offsetBorder:after,
+.offsetBorder:before {
+  transition: all 0.3s;
+}
+
+.offsetBorder:hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+.offsetBorder:hover:before {
+  top: 0;
+  right: 0;  
+  transition: all 0.3s;
+}
+
+.offsetBorder:hover:after {
+    bottom: 0;
+    left: 0;  
+    transition: all 0.3s;
+}
+
+*/

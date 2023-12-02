@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    padding: 0px;
+    flex: 35%;
+}
+
+.flex-item-right {
+    padding: 0px;
+    flex: 65%;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1000px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    h3.footertext {
+        margin-top: 0px;
+    }
+
+    h4.footertextsmall {
+        padding-bottom: 20px;
+    }
+}
