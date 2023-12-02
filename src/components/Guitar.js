@@ -16,10 +16,10 @@ const Model = () => {
 function Guitar() {
     return (
         <div>
-            <Canvas frameloop="demand" className='block ml-auto mr-auto !h-[450px] !w-[350px] hover:cursor-pointer xl:mt-[30px]'>
+            <Canvas frameloop="demand" className='block ml-auto mr-auto md:!h-[400px] md:!w-[350px] hover:cursor-pointer'>
                 <ambientLight intensity={1.5} />
                 <Suspense fallback={null}>
-                    <OrbitControls autoRotate={true} autoRotateSpeed={3.0} enableZoom={false} enablePan={false} minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} />
+                    <OrbitControls autoRotate={true} autoRotateSpeed={5.0} enableZoom={false} enablePan={false} minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} />
                     <Model />
                 </Suspense>
             </Canvas>

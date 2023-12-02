@@ -21,12 +21,12 @@ function Landing() {
                             <SiApplemusic className="social-link ml-[10px] mr-[10px] mt-[10vh] mb-[30px] text-pink-500 ease-in duration-200" id="applemusic" />
                         </a>
                     </div>
-                    <span className='block ml-[10vw] leading-[90px] mt-[18vh] w-[40vw] max-w-[700px] min-w-[250px] text-left text-white'>
-                        <h3 className='text-[60px] font-extrabold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:1.5px_white]'>
+                    <span className='block ml-[10vw] lg:leading-[90px] mt-[10vh] xl:mt-[18vh] w-[40vw] max-w-[700px] min-w-[250px] text-left text-white'>
+                        <h3 className='text-[30px] lg:text-[60px] font-extrabold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:1.5px_white]'>
                             Making the songs that play on repeat in my head so you can do the same too.
                         </h3>
-                        <img src="media/logo.png" alt="Pablo as a cartoon." className='block ml-auto mr-auto w-[30%] mt-[30px] mb-[30px]' />
-                        <h3 className='text-[60px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:1.5px_white]'>
+                        <img src="media/logo.png" alt="Pablo as a cartoon." className='block ml-auto mr-auto w-[30%] min-w-[150px] mt-[30px] mb-[30px]' />
+                        <h3 className='text-[30px] mt-[5vh] lg:mt-[0] lg:text-[60px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:1.5px_white]'>
                             &lt;Trágame • Música&gt;
                         </h3>
                     </span>

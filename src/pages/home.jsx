@@ -22,7 +22,7 @@ import Navbar from "../components/Navbar"
 
 function home() {
     return (
-        <div>
+        <div className='p-0 m-0 overflow-hidden'>
             <Navbar />
             <Landing />
             <Featured />

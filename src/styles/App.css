@@ -20,12 +20,12 @@ html{
     text-align: center;
   }
   
-  .flex-item-left {
+  .flex-item-left50 {
     padding: 0px;
     flex: 50%;
   }
   
-  .flex-item-right {
+  .flex-item-right50 {
     padding: 0px;
     flex: 50%;
   }
@@ -33,7 +33,7 @@ html{
 
   @media (max-width: 1000px) {
     .flex-container {
-      flex-direction: column;
+      flex-direction:column-reverse;
     }
 }
 
