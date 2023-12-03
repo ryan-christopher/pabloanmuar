@@ -34,7 +34,7 @@ function About() {
                             <div className=''>
                                 <Guitar />
                             </div>
-                            <div className='text-white text-[25px] text-right w-[80%] ml-auto mt-[-30px] pb-[20px]'>
+                            <div className='text-white text-[25px] text-right w-[80%] ml-auto mt-[-20px] pb-[20px]'>
                                 I have always seen music as a language that can connect people no matter where they come from, or what language they speak.
                             </div>
                         </div>

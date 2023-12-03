@@ -36,10 +36,10 @@ function Contact() {
                 <div className="flex-container ease-in duration-200 overflow-hidden">
                     <div className="flex-item-left50 text-center">
                         <h2 className='font-["Yatra_One"] text-[40px] md:text-[70px] pt-[72px] mt-[100px] uppercase font-bold text-center w-[100%] block ml-auto mr-auto'>Pablo.Anmuar</h2>
-                        <h3 className='text-[30px] lg:text-[40px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:1.5px_black]'>
+                        <h3 className='text-[30px] lg:text-[40px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:0.5px_black]'>
                             &lt;Trágame • Música&gt;
                         </h3>
-                        <h3 className='text-[20px] mt-[2vh] lg:text-[30px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:1.5px_black]'>
+                        <h3 className='text-[20px] mt-[2vh] lg:text-[30px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:0.5px_black]'>
                             ©2023 Pablo Andrés Muñoz Armella
                         </h3>
                     </div>
