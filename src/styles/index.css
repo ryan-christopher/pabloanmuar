@@ -5,16 +5,16 @@
 
 
 .preload {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #e9f1f7;
-    color: #222725;
-    z-index: 150;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e9f1f7;
+  color: #222725;
+  z-index: 150;
   }
   
   .preload-finish {
