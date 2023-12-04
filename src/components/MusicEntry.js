@@ -5,11 +5,11 @@ import "../styles/offsetBorder.css"
 
 function MusicEntry({ photo, url, spotEmbed, delayVal }) {
     return (
-        <div className='text-white flex flex-col lg:flex-row lg:h-[40vh] min-h-[300px] mt-[5vh] mb-[5vh]'>
-            <div className='flex-initial whitespace-nowrap max-w-[40vw]'>
-                <img className='relative h-[100%] object-cover inline-block z-[1] border-[#d1603d] border-2 border-l-[0] rounded-md' src={photo} alt="" />
+        <div className='text-white flex flex-col lg:flex-row lg:h-[40vh] mt-[calc(5vh+100px)] mb-[calc(5vh+100px)]'>
+            <div className='flex-initial whitespace-nowrap max-w-[50vw] lg:max-w-[40vw]'>
+                <img className='relative h-[30vh] lg:h-[100%] lg:min-h-[300px] object-cover inline-block z-[1] border-[#d1603d] border-2 border-l-[0] rounded-md' src={photo} alt="" />
                 <div className='inline-block origin-center translate-x-[-60%]'>
-                    <img className={`h-[75%] z-[0] inline-block animate-[spin_3s_linear_infinite_${delayVal}s] origin-center`} src="media/vinyl.png" alt="" />
+                    <img className={`h-[25vh] lg:h-[75%] z-[0] inline-block animate-[spin_3s_linear_infinite_${delayVal}s] origin-center`} src="media/vinyl.png" alt="" />
                 </div>
 
             </div>

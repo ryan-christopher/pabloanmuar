@@ -23,8 +23,8 @@ function Portfolio() {
                 </div>
             </div>
 
-            <MusicEntry photo={"media/HouseShow.png"} delayVal={2} spotEmbed={"https://open.spotify.com/embed/album/6dif3SiguAxTUF7yNfZC7Y?utm_source=generator"} />
-            <MusicEntry photo={"media/244.jpg"} delayVal={3} spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"} />
+            <MusicEntry photo={"media/HouseShow.png"} delayVal={"2"} spotEmbed={"https://open.spotify.com/embed/album/6dif3SiguAxTUF7yNfZC7Y?utm_source=generator"} />
+            <MusicEntry photo={"media/244.jpg"} delayVal={"3"} spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"} />
 
             <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-fit ml-[-2vw] block mr-auto">
                 <div className='bg-[#d1603d] offsetBorder !border-white !p-0 rounded-[5px] block mr-auto'>
