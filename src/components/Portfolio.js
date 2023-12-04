@@ -1,5 +1,6 @@
 import React from 'react'
 import { Parallax } from 'react-scroll-parallax';
+import MusicEntry from '../components/MusicEntry'
 
 function Portfolio() {
     return (
@@ -22,22 +23,9 @@ function Portfolio() {
                 </div>
             </div>
 
-            {/*}
-                <iframe
-                    title='Pablo Spofity'
-                    className='rounded-sm block ml-auto mr-auto'
-                    src="https://open.spotify.com/embed/artist/4jPN3jx8MwNtQMJ6PD46yJ?utm_source=generator"
-                    width="75%" height="352" frameBorder="0" allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy"></iframe>
-                    
-            <iframe title="House Party"
-                className='rounded-sm block ml-auto mr-auto'
-                src="https://open.spotify.com/embed/artist/4jPN3jx8MwNtQMJ6PD46yJ?utm_source=generator"
-                width="75%" height="550px" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-                 */}
+            <MusicEntry photo={"media/HouseShow.png"} delayVal={2} spotEmbed={"https://open.spotify.com/embed/album/6dif3SiguAxTUF7yNfZC7Y?utm_source=generator"} />
+            <MusicEntry photo={"media/244.jpg"} delayVal={3} spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"} />
+
             <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-fit ml-[-2vw] block mr-auto">
                 <div className='bg-[#d1603d] offsetBorder !border-white !p-0 rounded-[5px] block mr-auto'>
                     <h2 className='font-["Waiting_for_the_Sunrise"] text-[40px] pl-[7vw] pr-[7vw] md:text-[70px] lg:text-[100px] text-center ease-in duration-200'>
