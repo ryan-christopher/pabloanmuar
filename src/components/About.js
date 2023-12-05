@@ -8,11 +8,11 @@ function About() {
         <div id="about" className='bg-[#222725] pt-[72px]'>
 
             <div >
-                <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[35vh] sm:min-h-[300px] block ml-auto mr-auto">
+                <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[25vh] lg:h-[35vh] min-h-[200px] block ml-auto mr-auto">
                     <ParallaxBannerLayer image="media/yellowjacket.jpg" speed={10} />
                     <ParallaxBannerLayer className='bg-[#21212138]' speed={0}>
 
-                        <h2 className='font-["Yatra_One"] uppercase text-white pt-[15vh] ml-[5vw] text-[60px] sm:text-[100px] md:text-[150px] lg:text-[160px] text-left'>
+                        <h2 className='font-["Yatra_One"] uppercase text-white pt-[15vh] sm:pt-[5vh] lg:pt-[15vh] ml-[5vw] text-[70px] sm:text-[100px] md:text-[150px] lg:text-[160px] text-left'>
                             About
                         </h2>
 
@@ -27,8 +27,8 @@ function About() {
                         and worshiped fire. If anything, this shows how music is something bound to our most primitive instincts.
                     </div>
 
-                    <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-[76vw] xl:w-[36vw] block ml-auto mr-auto">
-                        <div className='bg-[#d1603d] offsetBorder !border-black p-[10px] min-h-[600px] w-[70vw] xl:w-[30vw] rounded-[5px] block ml-auto mr-auto'>
+                    <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-[85vw] xl:w-[36vw] block ml-auto mr-auto">
+                        <div className='bg-[#d1603d] offsetBorder !border-black p-[10px] min-h-[600px] w-[80vw] xl:w-[30vw] rounded-[5px] block ml-auto mr-auto'>
                             <div className='text-white text-[25px] w-[80%]'>
                                 What I pursue with my music, is to create sounds that feel human; sounds that connect with the most inner fiber of our beings.                         </div>
                             <div className=''>
