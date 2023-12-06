@@ -5,7 +5,7 @@ import Video from '../components/Video';
 
 function Portfolio() {
     return (
-        <div id="portfolio" className="min-h-[100vh] w-[100vw] bg-[#222725] text-white pb-[100px]">
+        <div id="portfolio" className="min-h-[100vh] w-[100vw] bg-[#222725] text-white">
             <h2 className='pt-[80px] font-["Yatra_One"] uppercase text-[65px] md:text-[80px] lg:text-[120px] text-center lg:text-left lg:ml-[12vw] ease-in duration-200'>
                 Portfolio
             </h2>

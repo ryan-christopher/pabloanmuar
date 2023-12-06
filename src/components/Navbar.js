@@ -18,16 +18,16 @@ function Navbar() {
 
             <nav>
                 <div id="overlay">
-                    <ul className="desktopnavlinks font-['Yatra_One'] text-[30px]">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                    <ul className="desktopnavlinks font-['Yatra_One'] sm:text-[23px] lg:text-[30px]">
+                        <li><a className='sm:mt-[8px] lg:mt-[0]' href="#home">Home</a></li>
+                        <li><a className='sm:mt-[8px] lg:mt-[0]' href="#portfolio">Portfolio</a></li>
+                        <li><a className='sm:mt-[8px] lg:mt-[0]' href="#about">About</a></li>
+                        <li><a className='sm:mt-[8px] lg:mt-[0]' href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
 
-            <h3 id="headername" className='text-[#222725] font-["Yatra_One"] uppercase font-bold ease-in duration-200'>Pablo.Anmuar</h3>
+            <h3 id="headername" className='text-[#222725] font-["Yatra_One"] top-[21px] text-[26px] lg:top-[12px] lg:text-[35px] uppercase font-bold ease-in duration-200'>Pablo.Anmuar</h3>
 
             <div className="mobilenavbar bg-[#e9f1f7c0] backdrop-blur-sm ease-in duration-200">
             </div>

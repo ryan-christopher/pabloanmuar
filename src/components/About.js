@@ -5,7 +5,7 @@ import "../styles/offsetBorder.css"
 
 function About() {
     return (
-        <div id="about" className='bg-[#222725] pt-[72px]'>
+        <div id="about" className='bg-[#222725] pt-[72px] mt-[-72px]'>
 
             <div >
                 <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[25vh] lg:h-[35vh] min-h-[200px] block ml-auto mr-auto">
@@ -20,12 +20,14 @@ function About() {
                 </ParallaxBanner>
             </div>
             <div className="w-[100vw] bg-[#f7ce5b] pb-[150px]">
-                <div className="font-['Patrick_Hand'] w-[90vw] ml-[5vw] pt-[75px]">
+                <div className="font-['Patrick_Hand'] relative w-[90vw] ml-[5vw] pt-[75px]">
                     <div className='text-black text-[25px] lg:text-[32px] pt-[0px] pb-[20px] w-[90vw] md:w-[60vw] text-left'>
                         I have always been fascinated by the amount of different styles of music that the human race has evolved to produce.
                         Generations after generations of artistic expression that go all the way back to our ancestors who lived in caverns
                         and worshiped fire. If anything, this shows how music is something bound to our most primitive instincts.
                     </div>
+
+                    <img src="media/pabloDoodle.png" className='invisible md:visible w-[230px] absolute overflow-hidden right-0 top-0 pt-[calc(180px-3vw)] sm:pt-[200px] lg:pt-[250px] rotate-[-50deg]' alt="" />
 
                     <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-[85vw] xl:w-[36vw] block ml-auto mr-auto">
                         <div className='bg-[#d1603d] offsetBorder !border-black p-[10px] min-h-[600px] w-[80vw] xl:w-[30vw] rounded-[5px] block ml-auto mr-auto'>

@@ -10,15 +10,15 @@ function Landing() {
             <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[100vh] max-w-[100vw]">
                 <ParallaxBannerLayer image="media/concert4.jpg" speed={10} />
                 <ParallaxBannerLayer className='bg-[#08080861] ease-in duration-200' speed={0}>
-                    <div className="text-white absolute top-[30vh] sm:top-[20vh] right-[20px] font-bold pb-[72px] text-[30px] sm:text-[40px] md:text-[70px] z-10">
+                    <div className="text-white absolute top-[20vh] sm:top-[20vh] right-[20px] font-bold pb-[72px] text-[40px] sm:text-[50px] md:text-[70px] lg:text-[90px] z-10">
                         <a href="#/" rel="noreferrer" target="_blank">
-                            <FaSpotify className="social-link ml-[10px] mr-[10px] text-green-500 ease-in duration-200 text-[100px]" id="spotify" />
+                            <FaSpotify className="social-link ml-[10px] sm:mr-[20px] text-green-500 ease-in duration-200" id="spotify" />
                         </a>
                         <a href="#/" rel="noreferrer" target="_blank">
-                            <FaYoutube className="social-link ml-[10px] mr-[10px] mt-[5vh] sm:mt-[10vh] text-red-500 ease-in duration-200" id="youtube" />
+                            <FaYoutube className="social-link ml-[10px] sm:mr-[20px] mt-[5vh] sm:mt-[10vh] text-red-500 ease-in duration-200" id="youtube" />
                         </a>
                         <a href="#/" rel="noreferrer" target="_blank">
-                            <SiApplemusic className="social-link ml-[10px] mr-[10px] mt-[5vh] sm:mt-[10vh] mb-[30px] text-pink-500 ease-in duration-200" id="applemusic" />
+                            <SiApplemusic className="social-link ml-[10px] sm:mr-[20px] mt-[5vh] sm:mt-[10vh] mb-[30px] text-pink-500 ease-in duration-200" id="applemusic" />
                         </a>
                     </div>
                     <span className='block ml-[10vw] lg:leading-[90px] mt-[10vh] xl:mt-[10vh] w-[40vw] max-w-[700px] min-w-[275px] text-left text-white'>

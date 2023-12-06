@@ -7,7 +7,7 @@ function MusicEntry({ photo, url, spotEmbed }) {
     return (
         <div className='w-[100vw] text-white flex flex-col lg:flex-row lg:h-[40vh] mt-[calc(5vh+100px)] mb-[calc(5vh+100px)]'>
             <div className='flex-initial whitespace-nowrap max-w-[100vw] lg:w-[40vw]'>
-                <img className='relative h-[30vh] w-[50vw] lg:w-[25vw] lg:h-[100%] lg:min-h-[300px] object-cover inline-block z-[1] border-[#d1603d] border-2 border-l-[0] rounded-md' src={photo} alt="" />
+                <img className='relative h-[30vh] w-[45vw] lg:w-[25vw] lg:h-[100%] lg:min-h-[300px] object-cover inline-block z-[1] border-l-[0] rounded-l-none rounded-md' src={photo} alt="" />
                 <div className='inline-block origin-center translate-x-[-60%]'>
                     <img className={`h-[25vh] object-cover overflow-visible lg:h-[75%] z-[0] inline-block animate-[spin_3s_linear_infinite_1s] origin-center`} src="media/vinyl.png" alt="" />
                 </div>
