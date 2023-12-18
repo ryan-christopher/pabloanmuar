@@ -4,7 +4,12 @@ import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 import { FaSpotify, FaYoutube } from 'react-icons/fa';
 import { SiApplemusic } from 'react-icons/si'
 
+import { useTranslation } from 'react-i18next';
+
 function Landing() {
+
+    const { t } = useTranslation();
+
     return (
         <div id="home" className="min-h-[100vh] w-[100vw] bg-[#e9f1f7] pt-[72px]">
             <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[100vh] max-w-[100vw]">
@@ -21,10 +26,11 @@ function Landing() {
                             <SiApplemusic className="social-link ml-[10px] sm:mr-[20px] mt-[5vh] sm:mt-[10vh] mb-[30px] text-pink-500 ease-in duration-200" id="applemusic" />
                         </a>
                     </div>
-                    <span className='block ml-[10vw] lg:leading-[90px] mt-[10vh] xl:mt-[10vh] w-[40vw] max-w-[700px] min-w-[275px] text-left text-white'>
+                    <span className='block ml-[10vw] lg:leading-[90px] mt-[10vh] xl:mt-[5vh] w-[40vw] max-w-[700px] min-w-[275px] text-left text-white'>
                         <h3 className='text-[30px] lg:text-[50px] font-extrabold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:0.5px_white]'>
-                            Making the songs that play on repeat in my head so you can do the same too.
+                            {t('description.landing')}
                         </h3>
+
                         <img src="media/logo.png" alt="Pablo as a cartoon." className='block ml-auto mr-auto w-[30%] min-w-[150px] mt-[3vh] mb-[3vh]' />
                         <h3 className='text-[30px] mt-[5vh] lg:mt-[0] lg:text-[50px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:0.5px_white]'>
                             &lt;Trágame • Música&gt;

@@ -5,7 +5,10 @@ import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 import "../styles/offsetBorder.css"
 import "../styles/App.css"
 
+import { useTranslation } from 'react-i18next';
+
 function Contact() {
+    const { t } = useTranslation();
     return (
         <div id="contact" className="w-[100vw] bg-[#f7ce5b]">
 
@@ -16,7 +19,7 @@ function Contact() {
                         <ParallaxBannerLayer className='bg-[#21212138]' speed={0}>
 
                             <h2 className='font-["Yatra_One"] uppercase text-white pt-[15vh] sm:pt-[5vh] lg:pt-[8vh] mr-[5vw] text-[70px] sm:text-[100px] md:text-[150px] lg:text-[160px] text-right'>
-                                Contact
+                                {t('description.contact')}
                             </h2>
 
                         </ParallaxBannerLayer>

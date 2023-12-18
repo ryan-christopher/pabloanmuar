@@ -21,6 +21,7 @@ import Navbar from "../components/Navbar"
 */
 
 function home() {
+
     return (
         <div className='p-0 m-0 overflow-hidden'>
             <Navbar />
