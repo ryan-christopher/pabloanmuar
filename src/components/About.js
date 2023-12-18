@@ -35,7 +35,7 @@ function About() {
                     <ParallaxBannerLayer image="media/guitarbg.jpg" speed={15} className='' />
                     <ParallaxBannerLayer className='bg-[#21212138]' speed={0}>
 
-                        <div className="borderwrapper p-[10px] pt-[50px] sm:pt-[100px] xl:pt-[100px] 2xl:pt-[200px] pb-[30px] w-[85vw] xl:w-[40vw] block ml-auto mr-auto">
+                        <div className="borderwrapper p-[10px] pt-[50px] sm:pt-[100px] xl:pt-[100px] 2xl:pt-[200px] pb-[30px] w-[85vw] xl:w-[40vw] block ml-auto mr-auto font-['Patrick_Hand'] ">
                             <div className='bg-[#d1603d] offsetBorder !border-black p-[10px] min-h-[600px] w-[80vw] xl:w-[35vw] rounded-[5px] block ml-auto mr-auto'>
                                 <div className='text-white text-[25px] w-[80%]'>
                                     {t('description.about2')}
