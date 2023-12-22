@@ -1,8 +1,7 @@
 import React from 'react'
 import { Parallax } from 'react-scroll-parallax';
-import MusicEntry from '../components/MusicEntry'
+import MusicEntry from './MusicEntry';
 import Video from '../components/Video';
-
 import { useTranslation } from 'react-i18next';
 
 function Portfolio() {
@@ -27,13 +26,27 @@ function Portfolio() {
                 </div>
             </div>
 
-            <MusicEntry photo={"media/HouseShow.png"} spotEmbed={"https://open.spotify.com/embed/album/6dif3SiguAxTUF7yNfZC7Y?utm_source=generator"} />
-            <MusicEntry photo={"media/244.jpg"} spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"} />
-            <MusicEntry photo={"media/situationship.png"} spotEmbed={"https://open.spotify.com/embed/album/722d7AeCygH7qid5BOZuWB?utm_source=generator"} />
-            <MusicEntry photo={"media/somethingnew.png"} spotEmbed={"https://open.spotify.com/embed/album/1bJdyCoSow27JH9PMrxq5Z?utm_source=generator"} />
-            <MusicEntry photo={"media/gameover.png"} spotEmbed={"https://open.spotify.com/embed/album/2jc5PIaL1ykij8ZoVd9SR0?utm_source=generator"} />
-            <MusicEntry photo={"media/timido.png"} spotEmbed={"https://open.spotify.com/embed/album/6vXESAlJT5PK9pLgbbviKg?utm_source=generator"} />
-            <MusicEntry photo={"media/analog.png"} spotEmbed={"https://open.spotify.com/embed/album/19tkQc1de6NXmgIBTWlnLR?utm_source=generator"} />
+            <MusicEntry title={"House Show"} photo={"media/HouseShow.png"}
+                spotEmbed={"https://open.spotify.com/embed/album/6dif3SiguAxTUF7yNfZC7Y?utm_source=generator"}
+                credited={"Composer, writer, producer, mixing and mastering engineer."} />
+            <MusicEntry title={"2:44 AM"} photo={"media/244.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"}
+                credited={"Composer, writer, producer and mixing engineer."} />
+            <MusicEntry title={"Situationship - Eden Hannah"} photo={"media/situationship.png"}
+                spotEmbed={"https://open.spotify.com/embed/album/722d7AeCygH7qid5BOZuWB?utm_source=generator"}
+                credited={"Producer and mixing engineer."} />
+            <MusicEntry title={"Something New - Emily Sangder"} photo={"media/somethingnew.png"}
+                spotEmbed={"https://open.spotify.com/embed/album/1bJdyCoSow27JH9PMrxq5Z?utm_source=generator"}
+                credited={"Horn arranger."} />
+            <MusicEntry title={"Game Over - Felice"} photo={"media/gameover.png"}
+                spotEmbed={"https://open.spotify.com/embed/album/2jc5PIaL1ykij8ZoVd9SR0?utm_source=generator"}
+                credited={"Producer and mixing engineer."} />
+            <MusicEntry title={"Timido - Angel Javier"} photo={"media/timido.png"}
+                spotEmbed={"https://open.spotify.com/embed/album/6vXESAlJT5PK9pLgbbviKg?utm_source=generator"}
+                credited={"Co-writer, co-producer and co-mixing engineer alongside Angel Javier."} />
+            <MusicEntry title={"Analog - Angel Javier"} photo={"media/analog.png"}
+                spotEmbed={"https://open.spotify.com/embed/album/19tkQc1de6NXmgIBTWlnLR?utm_source=generator"}
+                credited={"Producer on Track #1, #4 and #5, Co-writer on Track #4 and #5"} />
 
 
             <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-fit ml-[calc(-2vw-10px)] block mr-auto">
