@@ -36,14 +36,14 @@ function Navbar() {
             <h3 id="headername" className='text-[#222725] font-["Yatra_One"] top-[21px] text-[26px] lg:top-[12px] lg:text-[35px] uppercase font-bold ease-in duration-200'>Pablo.Anmuar</h3>
 
             <div className="mobilenavbar bg-[#e9f1f7c0] backdrop-blur-sm ease-in duration-200">
-                <div className='fixed right-[-3px] mt-[92px] font-["Yatra_One"] text-white hover:scale-125 transition-all origin-right'>
+                <div className='fixed right-[-3px] mt-[82px] font-["Yatra_One"] text-white hover:scale-125 transition-all origin-right'>
                     {i18n.resolvedLanguage === 'sp' && <div>
-                        <button key={'English'} className='bg-[#d1603d] border-[#f7ce5b] border-[2px] p-[10px] text-center rounded-l-lg text-[20px]' type="submit" onClick={() => i18n.changeLanguage('en')}>
+                        <button key={'English'} className='bg-[#d1603dd5] border-[#f7ce5b] border-[2px] p-[10px] text-center rounded-l-lg text-[20px]' type="submit" onClick={() => i18n.changeLanguage('en')}>
                             In English
                         </button>
                     </div>}
                     {i18n.resolvedLanguage === 'en' && <div>
-                        <button key={'Spanish'} className='bg-[#d1603d] border-[#f7ce5b] border-[2px] p-[10px] text-center rounded-l-lg text-[20px]' type="submit" onClick={() => i18n.changeLanguage('sp')}>
+                        <button key={'Spanish'} className='bg-[#d1603dd5] border-[#f7ce5b] border-[2px] p-[10px] text-center rounded-l-lg text-[20px]' type="submit" onClick={() => i18n.changeLanguage('sp')}>
                             En Español
                         </button>
                     </div>}
