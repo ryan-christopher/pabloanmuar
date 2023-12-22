@@ -20,7 +20,7 @@ function MusicEntry({ title, photo, url, spotEmbed, credited }) {
                 <div className='flex-initial w-[75vw] ml-auto mr-auto lg:w-[40vw] min-h-[100px]'>
                     <h3 className='font-["Waiting_for_the_Sunrise"] text-[35px] ml-[13%]'>Credited As:</h3>
                     <hr className="border-[#f7ce5b] w-[60vw] lg:w-[80%] block ml-auto mr-auto" />
-                    <p className='font-["Patrick_Hand"] text-[25px] block w-[50%] ml-[13%] mt-[20px] pb-[50px]'>{credited}</p>
+                    <p className='font-["Patrick_Hand"] text-[25px] block w-[50%] min-w-[220px] ml-[13%] mt-[20px] pb-[50px]'>{credited}</p>
                     <div className='flex flex-row flex-initial content-between justify-center ml-auto mr-auto w-[80vw] lg:w-[25vw] lg:mt-[20px] text-[30px]'>
                         <div className="borderwrapper inline-flex align-middle ml-auto mr-auto p-[20px] justify-center">
                             <a className='offsetBorder flex justify-center' href="#/" rel="noreferrer" target="_blank">
