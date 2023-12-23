@@ -15,7 +15,7 @@ function Landing() {
             <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[100vh] max-w-[100vw]">
                 <ParallaxBannerLayer image="media/studio.jpg" speed={10} />
                 <ParallaxBannerLayer image="media/concert4.jpg" speed={10} className='animate-[slideshow1_30s_ease-in-out_infinite]' />
-                <ParallaxBannerLayer image="media/guitarbg.jpg" speed={10} className='animate-[slideshow2_30s_ease-in-out_infinite]' />
+                <ParallaxBannerLayer image="media/studioblur.jpg" speed={10} className='animate-[slideshow2_30s_ease-in-out_infinite]' />
                 <ParallaxBannerLayer className='bg-[#08080861] ease-in duration-200' speed={0}>
                     <div className="text-white absolute top-[20vh] sm:top-[20vh] right-[20px] font-bold pb-[72px] text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] z-10">
                         <a href="#/" rel="noreferrer" target="_blank">

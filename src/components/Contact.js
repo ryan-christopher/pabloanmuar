@@ -18,7 +18,7 @@ function Contact() {
                         <ParallaxBannerLayer image="media/bedroom2.jpg" speed={10} />
                         <ParallaxBannerLayer className='bg-[#21212138]' speed={0}>
 
-                            <h2 className='font-["Yatra_One"] uppercase text-white pt-[15vh] sm:pt-[5vh] lg:pt-[8vh] mr-[5vw] text-[70px] sm:text-[100px] md:text-[150px] lg:text-[160px] text-right'>
+                            <h2 className='font-["Yatra_One"] uppercase text-white pt-[15vh] sm:pt-[5vh] lg:pt-[8vh] mr-[5vw] text-[60px] md:text-[80px] lg:text-[120px] text-right'>
                                 {t('description.contact')}
                             </h2>
 

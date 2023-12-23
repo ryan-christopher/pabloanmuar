@@ -8,19 +8,21 @@ function Portfolio() {
     const { t } = useTranslation();
     return (
         <div id="portfolio" className="min-h-[100vh] w-[100vw] bg-[#222725] text-white">
-            <h2 className='pt-[80px] font-["Yatra_One"] uppercase text-[65px] md:text-[80px] lg:text-[120px] text-center lg:text-left lg:ml-[12vw] ease-in duration-200'>
+            {/*
+            <h2 className='pt-[80px] font-["Yatra_One"] uppercase text-[60px] md:text-[80px] lg:text-[120px] text-center lg:text-left lg:ml-[12vw] ease-in duration-200'>
                 {t('description.portfolio')}
             </h2>
+    */}
             <span className='block ml-auto mr-auto w-[100vw] align-center text-right'>
                 <Parallax rotate={[-30, 30]} className="w-[10vw] min-w-[120px] inline-block max-w-[200px] 
                         ease-linear duration-[50ms] mr-[10vw]">
-                    <img src="media/pabdood.png" alt="" className="p-[0px] opacity-100 hover:scale-125 ease-in duration-200" aria-hidden="true" />
+                    <img src="media/pabdood.png" alt="" className="p-[0px] mt-[10px] opacity-100 hover:scale-125 ease-in duration-200" aria-hidden="true" />
                 </Parallax>
             </span>
 
-            <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-fit ml-[calc(-2vw-10px)] mt-[-10vh] block mr-auto">
+            <div className="borderwrapper w-fit ml-[calc(-2vw-10px)] mt-[-10vh] block mr-auto">
                 <div className='bg-[#d1603d] offsetBorder !border-white !p-0 rounded-[5px] block mr-auto'>
-                    <h2 className='font-["Waiting_for_the_Sunrise"] text-[60px] pl-[calc(7vw+30px)] pr-[calc(7vw+30px)] md:text-[70px] lg:text-[100px] text-center ease-in duration-200'>
+                    <h2 className='font-["Waiting_for_the_Sunrise"] text-[50px] pl-[calc(5vw+30px)] pr-[calc(5vw+30px)] md:text-[70px] lg:text-[80px] text-center ease-in duration-200'>
                         {t('description.music')}
                     </h2>
                 </div>
@@ -32,6 +34,8 @@ function Portfolio() {
             <MusicEntry title={"2:44 AM"} photo={"media/244.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"}
                 credited={"Composer, writer, producer and mixing engineer."} />
+            {/*
+
             <MusicEntry title={"Situationship - Eden Hannah"} photo={"media/situationship.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/722d7AeCygH7qid5BOZuWB?utm_source=generator"}
                 credited={"Producer and mixing engineer."} />
@@ -48,10 +52,12 @@ function Portfolio() {
                 spotEmbed={"https://open.spotify.com/embed/album/19tkQc1de6NXmgIBTWlnLR?utm_source=generator"}
                 credited={"Producer on Track #1, #4 and #5, Co-writer on Track #4 and #5"} />
 
+*/}
+
 
             <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-fit ml-[calc(-2vw-10px)] block mr-auto">
                 <div className='bg-[#d1603d] offsetBorder !border-white !p-0 rounded-[5px] block mr-auto'>
-                    <h2 className='font-["Waiting_for_the_Sunrise"] text-[60px] pl-[calc(7vw+30px)] pr-[calc(7vw+30px)] md:text-[70px] lg:text-[100px] text-center ease-in duration-200'>
+                    <h2 className='font-["Waiting_for_the_Sunrise"] text-[60px] pl-[calc(5vw+30px)] pr-[calc(5vw+30px)] mb-[50px] md:text-[70px] lg:text-[80px] text-center ease-in duration-200'>
                         Videos
                     </h2>
                 </div>

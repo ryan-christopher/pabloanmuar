@@ -302,8 +302,8 @@ h3#headername {
   .desktopnavlinks a:before {
     position: absolute;
     content: '';
-    -webkit-transition: all 0.5s ease;
-    transition: all .5s ease;
+    -webkit-transition: all 0.25s ease;
+    transition: all .25s ease;
     opacity: 0;
     top: 25%;
     bottom: 25%;
@@ -316,5 +316,5 @@ h3#headername {
   .desktopnavlinks .active a:before {
     opacity: 1;
     top: 0;
-    bottom: 0;
+    bottom: 5%;
   }
