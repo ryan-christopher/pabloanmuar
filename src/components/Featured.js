@@ -23,7 +23,7 @@ function Featured() {
 
                     <h3 className="font-['Yatra_One'] pl-[15%] sm:pl-[27%] pt-[50px] text-[#f7ce5b]">Listen Now</h3>
                     <hr className="border-[#f7ce5b] w-[80vw] sm:w-[30vw] block ml-auto mr-auto" />
-                    <div className='flex align-middle justify-center pt-[15px] pb-[15px] text-[40px] mt-[10px] mb-[10px]'>
+                    <div className='flex align-middle justify-center pt-[15px] pb-[15px] text-[30px] mt-[10px] mb-[10px]'>
                         <div className="borderwrapper flex align-middle justify-center">
                             <a className="offsetBorder m-[20px]" href="#/">
                                 <FaSpotify className="text-green-500 ease-in duration-200" id="spotify" />
