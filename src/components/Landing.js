@@ -18,13 +18,13 @@ function Landing() {
                 <ParallaxBannerLayer image="media/studioblur.jpg" speed={10} className='animate-[slideshow2_30s_ease-in-out_infinite]' />
                 <ParallaxBannerLayer className='bg-[#08080861] ease-in duration-200' speed={0}>
                     <div className="hidden sm:block text-white absolute top-[30vh] sm:top-[20vh] right-[20px] font-bold pb-[72px] text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] z-10">
-                        <a href="#/" rel="noreferrer" target="_blank">
+                        <a href="https://open.spotify.com/artist/4jPN3jx8MwNtQMJ6PD46yJ" rel="noreferrer" target="_blank">
                             <FaSpotify className="social-link ml-[10px] sm:mr-[20px] text-green-500 ease-in duration-200" id="spotify" />
                         </a>
-                        <a href="#/" rel="noreferrer" target="_blank">
+                        <a href="https://www.youtube.com/channel/UChec6FqYBkUM4c1xLnibC-g" rel="noreferrer" target="_blank">
                             <FaYoutube className="social-link ml-[10px] sm:mr-[20px] mt-[5vh] sm:mt-[10vh] text-red-500 ease-in duration-200" id="youtube" />
                         </a>
-                        <a href="#/" rel="noreferrer" target="_blank">
+                        <a href="https://music.apple.com/us/artist/pablo-anmuar/1667428210" rel="noreferrer" target="_blank">
                             <SiApplemusic className="social-link ml-[10px] sm:mr-[20px] mt-[5vh] sm:mt-[10vh] mb-[30px] text-pink-500 ease-in duration-200" id="applemusic" />
                         </a>
                     </div>
@@ -39,13 +39,13 @@ function Landing() {
                         </h3>
                     </span>
                     <div className="w-[70vw] flex justify-between mt-[40px] ml-auto mr-auto content-center sm:hidden text-white font-bold pb-[72px] text-[50px] z-10">
-                        <a href="#/" rel="noreferrer" target="_blank">
+                        <a href="https://open.spotify.com/artist/4jPN3jx8MwNtQMJ6PD46yJ" rel="noreferrer" target="_blank">
                             <FaSpotify className="inline-block text-green-500 ease-in duration-200 hover:scale-125" id="spotify" />
                         </a>
-                        <a href="#/" rel="noreferrer" target="_blank">
+                        <a href="https://www.youtube.com/channel/UChec6FqYBkUM4c1xLnibC-g" rel="noreferrer" target="_blank">
                             <FaYoutube className="inline-block text-red-500 ease-in duration-200 hover:scale-125" id="youtube" />
                         </a>
-                        <a href="#/" rel="noreferrer" target="_blank">
+                        <a href="https://music.apple.com/us/artist/pablo-anmuar/1667428210" rel="noreferrer" target="_blank">
                             <SiApplemusic className="inline-block text-pink-500 ease-in duration-200 hover:scale-125" id="applemusic" />
                         </a>
                     </div>

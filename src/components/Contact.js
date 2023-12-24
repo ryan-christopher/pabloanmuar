@@ -50,17 +50,17 @@ function Contact() {
                     <div className="flex-item-right50 text-left justify-center">
                         <div className='flex justify-center mt-[40px] sm:mt-[100px]'>
                             <div className="borderwrapper inline-flex align-middle justify-center">
-                                <a className="offsetBorder m-[20px]" href="#/">
+                                <a className="offsetBorder m-[20px]" href="https://open.spotify.com/artist/4jPN3jx8MwNtQMJ6PD46yJ" rel='noreferrer' target='_blank'>
                                     <FaSpotify className="text-green-500 ease-in duration-200" id="spotify" />
                                 </a>
                             </div>
                             <div className="borderwrapper inline-flex align-middle justify-center ml-[20px]">
-                                <a className="offsetBorder m-[20px]" href="#/">
+                                <a className="offsetBorder m-[20px]" href="https://www.youtube.com/channel/UChec6FqYBkUM4c1xLnibC-g" rel='noreferrer' target='_blank'>
                                     <FaYoutube className="text-red-500 ease-in duration-200" id="youtube" />
                                 </a>
                             </div>
                             <div className="borderwrapper inline-flex align-middle justify-center ml-[20px]">
-                                <a className="offsetBorder m-[20px]" href="#/">
+                                <a className="offsetBorder m-[20px]" href="https://music.apple.com/us/artist/pablo-anmuar/1667428210" rel='noreferrer' target='_blank'>
                                     <SiApplemusic className="text-pink-500 ease-in duration-200" id="applemusic" />
                                 </a>
                             </div>

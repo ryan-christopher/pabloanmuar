@@ -11,11 +11,11 @@ function Portfolio() {
         <div id="portfolio" className="min-h-[100vh] w-[100vw] bg-[#222725] text-white">
 
             <div>
-                <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[35vh] sm:h-[55vh] min-h-[300px] block ml-auto mr-auto">
+                <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[35vh] sm:h-[45vh] min-h-[300px] block ml-auto mr-auto">
                     <ParallaxBannerLayer image="media/desk.jpg" speed={10} />
                     <ParallaxBannerLayer className='bg-[#21212170]' speed={0}>
 
-                        <h2 className='font-["Yatra_One"] relative uppercase text-white top-[45%] bottom-0 ml-[3vw] text-[60px] md:text-[80px] lg:text-[120px] text-left'>
+                        <h2 className='font-["Yatra_One"] relative uppercase text-white top-[40%] bottom-0 ml-[3vw] text-[60px] md:text-[80px] lg:text-[120px] text-left'>
                             {t('description.portfolio')}
                         </h2>
 
@@ -40,24 +40,45 @@ function Portfolio() {
 
             <MusicEntry title={"House Show"} photo={"media/HouseShow.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/6dif3SiguAxTUF7yNfZC7Y?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/6dif3SiguAxTUF7yNfZC7Y?si=t7tpr8j7SZWbSL4zfE-JYg"}
+                ytlink={"https://www.youtube.com/watch?v=KMWzvT2tdro&list=OLAK5uy_mL9ifirOgEaGs62JE392a6if-PvekPNvI&ab_channel=PABLO.ANMUAR-Topic"}
+                applelink={"https://music.apple.com/us/album/house-show-ep/1711989841"}
                 credited={t('description.housecredit')} />
             <MusicEntry title={"2:44 AM"} photo={"media/244.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"}
+                spotlink={"https://open.spotify.com/track/5XKzgVOqejBPnvMVBRDhS9?si=bedcad31d65048de"}
+                ytlink={"https://www.youtube.com/watch?v=84Anqc2-K40&ab_channel=PABLO.ANMUAR"}
+                applelink={"https://music.apple.com/us/album/2-44-am-youre-the-kind-of-girl-single/1667454232"}
                 credited={t('description.credit244')} />
             <MusicEntry title={"Situationship - Eden Hannah"} photo={"media/situationship.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/722d7AeCygH7qid5BOZuWB?utm_source=generator"}
+                spotlink={"https://open.spotify.com/track/4P8kkguOXb56Ri2bLDGRnN?si=653f184bde274929"}
+                ytlink={"https://youtu.be/8Uvvhg0h7Vk?si=SKqCZ9u0YKPKo6n8"}
+                applelink={"https://music.apple.com/us/album/situationship-single/1698820111"}
                 credited={t('description.situationshipcredit')} />
             <MusicEntry title={"Something New - Emily Sangder"} photo={"media/somethingnew.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/1bJdyCoSow27JH9PMrxq5Z?utm_source=generator"}
+                spotlink={"https://open.spotify.com/track/5yWLLCQOdJSPy6oDqQOn3F?si=7de8869941094770"}
+                ytlink={"https://youtu.be/mE-crXMY8kA?si=RteLb5KEd6ic1Jsy"}
+                applelink={"https://music.apple.com/us/album/something-new-single/1516323323"}
                 credited={t('description.somethingnewcredit')} />
             <MusicEntry title={"Game Over - Felice"} photo={"media/gameover.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/2jc5PIaL1ykij8ZoVd9SR0?utm_source=generator"}
+                spotlink={"https://open.spotify.com/track/4tCMOubuNwOXchhIR6gnQl?si=e6c6a2d760414ce1"}
+                ytlink={"https://youtu.be/0n7tfT3F72w?si=UuZ063pr6jMvhAjK"}
+                applelink={"https://music.apple.com/us/album/game-over/1625899621?i=1625899622"}
                 credited={t('description.gameovercredit')} />
             <MusicEntry title={"Tímido - Angel Javier"} photo={"media/timido.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/6vXESAlJT5PK9pLgbbviKg?utm_source=generator"}
+                spotlink={"https://open.spotify.com/track/4dOwe8QImbp2OHMLrTWppB?si=ec75e433a96b4c5b"}
+                ytlink={"https://youtu.be/1Hym6RncXB0?si=ue7EwziK9YKIAssE"}
+                applelink={"None"}
                 credited={t('description.timidocredit')} />
             <MusicEntry title={"Analog EP, Vol. 1 - Angel Javier"} photo={"media/analog.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/19tkQc1de6NXmgIBTWlnLR?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/19tkQc1de6NXmgIBTWlnLR?si=3x_kExfxSRaSOSSJ2bOq7g"}
+                ytlink={"https://www.youtube.com/watch?v=k_TSkGkHDPY&list=OLAK5uy_kKiSQKbPQq2jTmD_cRfzWiYJcRnSwOUHs"}
+                applelink={"None"}
                 credited={t('description.analogcredit')} />
             <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-fit ml-[calc(-2vw-10px)] block mr-auto">
                 <div className='bg-[#d1603d] offsetBorder !border-white !p-0 rounded-[5px] block mr-auto'>

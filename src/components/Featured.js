@@ -22,20 +22,20 @@ function Featured() {
                     <h3 className="font-['Yatra_One'] uppercase text-right pr-[15%] md:pr-[28%] pt-[20px] text-[25px]">-Pablo</h3>
 
                     <h3 className="font-['Yatra_One'] pl-[15%] sm:pl-[27%] pt-[50px] text-[#f7ce5b]">Listen Now</h3>
-                    <hr className="border-[#f7ce5b] w-[80vw] sm:w-[30vw] block ml-auto mr-auto" />
+                    <hr className="border-[#f7ce5b] w-[70vw] sm:w-[30vw] block ml-auto mr-auto" />
                     <div className='flex align-middle justify-center pt-[15px] pb-[15px] text-[30px] mt-[10px] mb-[10px]'>
                         <div className="borderwrapper flex align-middle justify-center">
-                            <a className="offsetBorder m-[20px]" href="#/">
+                            <a className="offsetBorder m-[20px]" href="https://open.spotify.com/album/6dif3SiguAxTUF7yNfZC7Y?si=t7tpr8j7SZWbSL4zfE-JYg" rel='noreferrer' target='_blank'>
                                 <FaSpotify className="text-green-500 ease-in duration-200" id="spotify" />
                             </a>
                         </div>
                         <div className="borderwrapper flex align-middle justify-center ml-[20px]">
-                            <a className="offsetBorder m-[20px]" href="#/">
+                            <a className="offsetBorder m-[20px]" href="https://www.youtube.com/watch?v=KMWzvT2tdro&list=OLAK5uy_mL9ifirOgEaGs62JE392a6if-PvekPNvI&ab_channel=PABLO.ANMUAR-Topic" rel='noreferrer' target='_blank'>
                                 <FaYoutube className="text-red-500 ease-in duration-200" id="youtube" />
                             </a>
                         </div>
                         <div className="borderwrapper flex align-middle justify-center ml-[20px]">
-                            <a className="offsetBorder m-[20px]" href="#/">
+                            <a className="offsetBorder m-[20px]" href="https://music.apple.com/us/album/house-show-ep/1711989841" rel='noreferrer' target='_blank'>
                                 <SiApplemusic className="text-pink-500 ease-in duration-200" id="applemusic" />
                             </a>
                         </div>
