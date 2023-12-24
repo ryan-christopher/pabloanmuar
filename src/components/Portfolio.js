@@ -53,10 +53,10 @@ function Portfolio() {
             <MusicEntry title={"Game Over - Felice"} photo={"media/gameover.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/2jc5PIaL1ykij8ZoVd9SR0?utm_source=generator"}
                 credited={t('description.gameovercredit')} />
-            <MusicEntry title={"Timido - Angel Javier"} photo={"media/timido.png"}
+            <MusicEntry title={"Tímido - Angel Javier"} photo={"media/timido.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/6vXESAlJT5PK9pLgbbviKg?utm_source=generator"}
                 credited={t('description.timidocredit')} />
-            <MusicEntry title={"Analog - Angel Javier"} photo={"media/analog.png"}
+            <MusicEntry title={"Analog EP, Vol. 1 - Angel Javier"} photo={"media/analog.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/19tkQc1de6NXmgIBTWlnLR?utm_source=generator"}
                 credited={t('description.analogcredit')} />
             <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-fit ml-[calc(-2vw-10px)] block mr-auto">
