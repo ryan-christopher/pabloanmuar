@@ -78,7 +78,7 @@
 
 .mobilemenu-link:hover {
     transform: scale(1.1);
-    transition: all 0.45s;
+    transition: all 0.25s;
 }
 
 .mobilemenu-overlay {
@@ -106,9 +106,9 @@
 }
 
 .mobilemenu {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     position: fixed;
     height: 100vh;
     z-index: 103;
@@ -174,7 +174,7 @@
         visibility: hidden;
         opacity: 0;
         transform: translateY(-80px);
-        transition: all 0.5s;
+        transition: all 0.25s;
     }
 }
 
@@ -240,7 +240,7 @@ h3#headername {
       visibility: hidden;
       opacity: 0;
       transform: translateY(-80px);
-      transition: all 0.5s;
+      transition: all 0.25s;
     }
   }
   
@@ -249,7 +249,7 @@ h3#headername {
       visibility: hidden;
       opacity: 0;
       transform: translateY(-150px);
-      transition: all 0.5s;
+      transition: all 0.25s;
     }
 }
 

@@ -6,14 +6,13 @@ import "../styles/index.css"
 
 import Contact from '../components/Contact'
 import Navbar from "../components/Navbar"
-import MusicEntry from '../components/MusicEntry';
-import Video from '../components/Video';
+import Portfolio from '../components/Portfolio';
 
 function portfolio() {
     return (
         <div>
-            <Navbar />
-
+            <Navbar currPage={"portfolio"} />
+            <Portfolio />
             <Contact />
         </div>
     )

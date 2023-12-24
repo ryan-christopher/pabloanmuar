@@ -32,10 +32,10 @@ function About() {
                 </div>
 
                 <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="max-h-[800px] min-h-screen md:min-h-[600px]">
-                    <ParallaxBannerLayer image="media/guitarbg.jpg" speed={15} className='' />
+                    <ParallaxBannerLayer image="media/guitarbg.jpg" speed={0} className='' />
                     <ParallaxBannerLayer className='bg-[#21212138] flex' speed={0}>
 
-                        <div className="borderwrapper self-center p-[10px] w-[85vw] xl:w-[40vw] ml-auto mr-auto font-['Patrick_Hand'] ">
+                        <div className="borderwrapper self-center p-0 sm:p-[30px] w-[85vw] xl:w-[40vw] ml-auto mr-auto font-['Patrick_Hand'] ">
                             <div className='self-center bg-[#d1603d] offsetBorder !border-black p-[10px] w-[80vw] xl:w-[35vw] rounded-[5px] ml-auto mr-auto'>
                                 <div className='text-white text-[20px] lg:text-[25px] w-[100%] sm:w-[80%]'>
                                     {t('description.about2')}

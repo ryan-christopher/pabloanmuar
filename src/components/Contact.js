@@ -26,14 +26,15 @@ function Contact() {
                     </ParallaxBanner>
                 </div>
 
-                <p className='font-["Patrick_Hand"] ml-[5vw] w-[75vw] lg:ml-[15vw] pt-[5vh] pb-[3vh] text-[30px]'>For any inquiries, please reach me at:</p>
+                <p className='font-["Patrick_Hand"] ml-[5vw] w-[75vw] lg:ml-[15vw] pt-[5vh] pb-[3vh] text-[20px] lg:text-[25px]'>{t('description.contactdesc')}</p>
 
-                <div className="borderwrapper p-[10px] pt-[30px] pb-[30px] w-fit block ml-auto mr-auto">
-                    <div className='offsetBorder !border-black rounded-[5px] block ml-auto mr-auto'>
-                        <h2 className='font-["Patrick_Hand"] text-[25px] md:text-[40px] lg:text-[60px] text-center ease-in duration-200'>
+                <div className="borderwrapper p-[30px] pt-[30px] pb-[30px] w-fit block ml-auto mr-auto">
+                    <a href="mailto:pablo.anmuar@gmail.com" className='offsetBorder !border-black rounded-[5px] block ml-auto mr-auto hover:bg-[#f7ce5b]'>
+                        <h2 className='font-["Patrick_Hand"] text-[20px] md:text-[30px] lg:text-[40px] text-center ease-in duration-200'>
                             pablo.anmuar@gmail.com
                         </h2>
-                    </div>
+                    </a>
+
                 </div>
 
                 <div className="flex-container ease-in duration-200 overflow-hidden">
@@ -70,7 +71,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 export default Contact

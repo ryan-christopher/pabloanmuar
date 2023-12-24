@@ -5,31 +5,53 @@ import $ from 'jquery'
 import { useTranslation } from 'react-i18next';
 
 
-function Navbar() {
+function Navbar({ currPage }) {
 
     const { t, i18n } = useTranslation();
     console.log(i18n.resolvedLanguage)
-    let links;
+    let mobilelinks;
+    let desktoplinks;
 
-    links =
-        <div>
-            <a href="#home" className="mobilemenu-link" onClick={menutoggle()}>{t('description.home')}</a>
-            <a href="#portfolio" className="mobilemenu-link" onClick={menutoggle()}>{t('description.portfolio')}</a>
-            <a href="#about" className="mobilemenu-link" onClick={menutoggle()}>{t('description.about')}</a>
-            <a href="#contact" className="mobilemenu-link" onClick={menutoggle()}>{t('description.contact')}</a>
-        </div>
+    if (currPage === "/") {
+        mobilelinks =
+            <div>
+                <a href="#home" className="mobilemenu-link" onClick={menutoggle()}>{t('description.home')}</a>
+                <a href="/portfolio" className="mobilemenu-link" onClick={menutoggle()}>{t('description.portfolio')}</a>
+                <a href="#about" className="mobilemenu-link" onClick={menutoggle()}>{t('description.about')}</a>
+                <a href="#contact" className="mobilemenu-link" onClick={menutoggle()}>{t('description.contact')}</a>
+            </div>
+        desktoplinks =
+            <ul className="desktopnavlinks font-['Yatra_One'] sm:text-[23px] lg:text-[30px]">
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="#home">{t('description.home')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="/portfolio">{t('description.portfolio')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="#about">{t('description.about')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="#contact">{t('description.contact')}</a></li>
+            </ul>
+
+    }
+    else if (currPage === "portfolio") {
+        mobilelinks =
+            <div>
+                <a href="/#home" className="mobilemenu-link" onClick={menutoggle()}>{t('description.home')}</a>
+                <a href="#portfolio" className="mobilemenu-link" onClick={menutoggle()}>{t('description.portfolio')}</a>
+                <a href="/#about" className="mobilemenu-link" onClick={menutoggle()}>{t('description.about')}</a>
+                <a href="/#contact" className="mobilemenu-link" onClick={menutoggle()}>{t('description.contact')}</a>
+            </div>
+        desktoplinks =
+            <ul className="desktopnavlinks font-['Yatra_One'] sm:text-[23px] lg:text-[30px]">
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="/#home">{t('description.home')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="#portfolio">{t('description.portfolio')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="/#about">{t('description.about')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="/#contact">{t('description.contact')}</a></li>
+            </ul>
+    }
 
     return (
         <div>
 
             <nav>
                 <div id="overlay">
-                    <ul className="desktopnavlinks font-['Yatra_One'] sm:text-[23px] lg:text-[30px]">
-                        <li><a className='sm:mt-[8px] lg:mt-[0]' href="#home">{t('description.home')}</a></li>
-                        <li><a className='sm:mt-[8px] lg:mt-[0]' href="#portfolio">{t('description.portfolio')}</a></li>
-                        <li><a className='sm:mt-[8px] lg:mt-[0]' href="#about">{t('description.about')}</a></li>
-                        <li><a className='sm:mt-[8px] lg:mt-[0]' href="#contact">{t('description.contact')}</a></li>
-                    </ul>
+                    {desktoplinks}
                 </div>
             </nav>
 
@@ -65,7 +87,7 @@ function Navbar() {
                     </div>
                     <div className="mobilemenu-overlay"></div>
                     <div className="mobilemenu-container text-[#222725] font-['Yatra_One']">
-                        {links}
+                        {mobilelinks}
                     </div>
                 </div>
             </div>

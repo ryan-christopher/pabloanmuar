@@ -7,7 +7,7 @@ import "../styles/index.css"
 // Sections
 import Landing from '../components/Landing'
 import Featured from '../components/Featured'
-import Portfolio from '../components/Portfolio'
+import MiniPortfolio from '../components/MiniPortfolio'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Navbar from "../components/Navbar"
@@ -21,13 +21,12 @@ import Navbar from "../components/Navbar"
 */
 
 function home() {
-
     return (
         <div className='p-0 m-0 overflow-hidden'>
-            <Navbar />
+            <Navbar currPage={"/"} />
             <Landing />
             <Featured />
-            <Portfolio />
+            <MiniPortfolio />
             <About />
             <Contact />
         </div>
