@@ -5,10 +5,12 @@ import Styling from './pages/styling'
 import './styles/App.css';
 import React from 'react'
 import { ParallaxProvider } from 'react-scroll-parallax';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
     <ParallaxProvider>
+      <Analytics />
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
