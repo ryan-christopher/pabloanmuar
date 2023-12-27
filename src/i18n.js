@@ -31,11 +31,15 @@ i18n
                         housecredit: 'Composer, writer, producer, mixing and mastering engineer.',
                         credit244: 'Composer, writer, producer and mixing engineer.',
                         situationshipcredit: 'Producer and mixing engineer.',
+                        cravecredit: 'Producer and mixing engineer.',
+                        bleedoutcredit: 'Producer and mixing engineer.',
+                        notmecredit: 'Recording engineer and vocal producer.',
+                        letitpopcredit: 'Recording engineer and vocal producer.',
                         somethingnewcredit: 'Horn arranger.',
                         gameovercredit: 'Producer and mixing engineer.',
                         timidocredit: 'Co-writer, co-producer and co-mixing engineer alongside Angel Javier.',
                         analogcredit: 'Producer on Track #1, #4 and #5, Co-writer on Track #4 and #5',
-
+                        keepmeclosecredit: 'Co-writer, co-producer and co-mixing engineer alongside Angel Javier.'
                     }
                 }
             },
@@ -58,10 +62,15 @@ i18n
                         housecredit: 'Compositor, letrista, productor e ingeniero de mezcla y mastering.',
                         credit244: 'Compositor, letrista, productor e ingeniero de mezcla.',
                         situationshipcredit: 'Productor e ingeniero de mezcla.',
+                        cravecredit: 'Productor e ingeniero de mezcla.',
+                        bleedoutcredit: 'Productor e ingeniero de mezcla.',
+                        notmecredit: 'Ingeniero de grabación y productor vocal.',
+                        letitpopcredit: 'Ingeniero de grabación y productor vocal.',
                         somethingnewcredit: 'Arreglista de vientos.',
                         gameovercredit: 'Productor e ingeniero de mezcla.',
                         timidocredit: 'Co-compositor, productor e ingeniero de mezcla junto a Angel Javier.',
-                        analogcredit: 'Co-compositor, productor e ingeniero de mezcla junto a Angel Javier.',
+                        analogcredit: 'Productor en las pistas #1, #4 y #5, coautor en las pistas #4 y #5.',
+                        keepmeclosecredit: 'Co-compositor, productor e ingeniero de mezcla junto a Angel Javier.'
                     }
                 }
             }

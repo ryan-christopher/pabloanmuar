@@ -30,7 +30,6 @@ function MusicEntry({ title, photo, spotlink, ytlink, applelink, spotEmbed, cred
         </div>
     }
 
-
     return (
         <div className='w-[100vw] text-white min-h-[352px] mt-[calc(5vh+50px)] mb-[calc(5vh+50px)] bg-[#222725] group'>
             <h2 className="font-['Yatra_One'] text-[27px] sm:text-[40px] lg:text-[50px] ml-[20px]">{title}</h2>
@@ -42,7 +41,7 @@ function MusicEntry({ title, photo, spotlink, ytlink, applelink, spotEmbed, cred
                     </div>
                 </div>
                 <div className='flex flex-row lg:flex-col flex-initial content-between justify-center ml-auto mr-auto mt-[10px] min-w-[275px] w-[50vw] lg:w-[20vw] text-[30px]'>
-                    <iframe title='Song Entry' className='min-h-[352px]' src={spotEmbed} width="100%" height="100%"></iframe>
+                    <iframe title='Song Entry' className='min-h-[352px]' src={spotEmbed} width="100%" height="100%" loading="lazy"></iframe>
                 </div>
                 <div className='flex-initial w-[90vw] ml-auto mr-auto lg:w-[40vw] min-h-[100px]'>
                     <h3 className='font-["Waiting_for_the_Sunrise"] text-[35px] ml-[13%]'>{t('description.creditlabel')}</h3>
