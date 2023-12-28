@@ -1,12 +1,9 @@
 import React from 'react'
 import '../styles/Menu.css';
 import $ from 'jquery'
-
 import { useTranslation } from 'react-i18next';
 
-
 function Navbar({ currPage }) {
-
     const { t, i18n } = useTranslation();
     console.log(i18n.resolvedLanguage)
     let mobilelinks;
@@ -48,15 +45,12 @@ function Navbar({ currPage }) {
 
     return (
         <div>
-
             <nav>
                 <div id="overlay">
                     {desktoplinks}
                 </div>
             </nav>
-
             <h3 id="headername" className='text-[#222725] font-["Yatra_One"] top-[21px] text-[26px] lg:top-[12px] lg:text-[35px] uppercase font-bold ease-in duration-200'>Pablo.Anmuar</h3>
-
             <div className="mobilenavbar bg-[#e9f1f7c0] backdrop-blur-sm ease-in duration-200">
                 <div className='fixed right-[-3px] mt-[82px] font-["Yatra_One"] text-white hover:scale-125 transition-all origin-right'>
                     {i18n.resolvedLanguage === 'sp' && <div>
@@ -72,7 +66,6 @@ function Navbar({ currPage }) {
 
                 </div>
             </div>
-
             <div className="mobilemenu bg-[#e9f1f7]">
                 <div className="mobilebutton">
                     <div className="burgertop bg-[#363636] ease-in duration-200"></div>
@@ -95,7 +88,6 @@ function Navbar({ currPage }) {
         </div >
     )
 }
-
 function menutoggle() {
     $('.mobilemenu').toggleClass('active');
     $('.mask').toggleClass('active')

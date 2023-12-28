@@ -2,7 +2,6 @@ import React from 'react'
 import { FaSpotify, FaYoutube } from 'react-icons/fa';
 import { SiApplemusic } from 'react-icons/si'
 import "../styles/offsetBorder.css"
-
 import { useTranslation } from 'react-i18next';
 
 function MusicEntry({ title, photo, spotlink, ytlink, applelink, spotEmbed, credited }) {

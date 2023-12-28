@@ -11,7 +11,6 @@ import MiniPortfolio from '../components/MiniPortfolio'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Navbar from "../components/Navbar"
-
 /* Site colors
 "Eerie Black" - #222725
 "Alice Blue" - #e9f1f7

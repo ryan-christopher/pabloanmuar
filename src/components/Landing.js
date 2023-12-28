@@ -1,5 +1,4 @@
 import React from 'react'
-// Moving Text
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 import { FaSpotify, FaYoutube, FaSoundcloud } from 'react-icons/fa';
 import { SiApplemusic } from 'react-icons/si'
