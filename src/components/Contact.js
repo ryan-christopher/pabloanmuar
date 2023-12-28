@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaSpotify, FaYoutube } from 'react-icons/fa';
-import { SiApplemusic } from 'react-icons/si'
+import { FaSpotify, FaYoutube, FaTiktok, FaFacebook } from 'react-icons/fa';
+import { SiApplemusic, SiInstagram } from 'react-icons/si'
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 import "../styles/offsetBorder.css"
 import "../styles/App.css"
@@ -49,6 +49,13 @@ function Contact() {
                     </div>
                     <div className="flex-item-right50 text-left justify-center">
                         <div className='flex justify-center mt-[40px] sm:mt-[100px]'>
+                            {/*
+                        <div className="borderwrapper inline-flex align-middle justify-center">
+                                <a className="offsetBorder m-[20px]" href="https://open.spotify.com/artist/4jPN3jx8MwNtQMJ6PD46yJ" rel='noreferrer' target='_blank'>
+                                    <SiInstagram className="text-purple-500 ease-in duration-200" id="spotify" />
+                                </a>
+                            </div>
+    */}
                             <div className="borderwrapper inline-flex align-middle justify-center">
                                 <a className="offsetBorder m-[20px]" href="https://open.spotify.com/artist/4jPN3jx8MwNtQMJ6PD46yJ" rel='noreferrer' target='_blank'>
                                     <FaSpotify className="text-green-500 ease-in duration-200" id="spotify" />

@@ -31,7 +31,7 @@ function About() {
                     <img src="media/pabloDoodle.png" className='invisible md:visible w-[230px] absolute overflow-hidden right-0 top-[0px] sm:pt-[200px] lg:pt-[100px]' alt="" />
                 </div>
 
-                <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="!w-[100vw] max-h-[800px] min-h-screen md:min-h-[600px]">
+                <ParallaxBanner style={{ aspectRatio: 'auto' }} className="!w-[100vw] max-h-[800px] min-h-screen md:min-h-[800px]">
                     <ParallaxBannerLayer image="media/guitarbg.jpg" speed={0} className='' />
                     <ParallaxBannerLayer className='bg-[#21212138] flex' speed={0}>
 
