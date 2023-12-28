@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaSpotify, FaYoutube, FaTiktok, FaFacebook } from 'react-icons/fa';
+import { FaSpotify, FaYoutube, FaTiktok, FaFacebook, FaSoundcloud } from 'react-icons/fa';
 import { SiApplemusic, SiInstagram } from 'react-icons/si'
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 import "../styles/offsetBorder.css"
@@ -39,7 +39,7 @@ function Contact() {
 
                 <div className="flex-container ease-in duration-200 overflow-hidden">
                     <div className="flex-item-left50 text-center">
-                        <h2 className='font-["Yatra_One"] text-[40px] md:text-[70px] pt-[72px] mt-[40px] sm:mt-[100px] uppercase font-bold text-center w-[100%] block ml-auto mr-auto'>Pablo.Anmuar</h2>
+                        <h2 className='font-["Yatra_One"] text-[40px] md:text-[50px] xl:text-[70px] pt-[72px] mt-[40px] sm:mt-[100px] uppercase font-bold text-center w-[100%] block ml-auto mr-auto'>Pablo.Anmuar</h2>
                         <h3 className='text-[30px] lg:text-[40px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:0.5px_black]'>
                             &lt;Trágame • Música&gt;
                         </h3>
@@ -48,27 +48,44 @@ function Contact() {
                         </h3>
                     </div>
                     <div className="flex-item-right50 text-left justify-center">
-                        <div className='flex justify-center mt-[40px] sm:mt-[100px]'>
-                            {/*
-                        <div className="borderwrapper inline-flex align-middle justify-center">
-                                <a className="offsetBorder m-[20px]" href="https://open.spotify.com/artist/4jPN3jx8MwNtQMJ6PD46yJ" rel='noreferrer' target='_blank'>
-                                    <SiInstagram className="text-purple-500 ease-in duration-200" id="spotify" />
+                        <div className='flex justify-center mt-[40px] sm:mt-[100px] text-[25px] md:text-[30px]'>
+                            <div className="borderwrapper inline-flex align-middle justify-center ml-[0px] md:ml-[20px]">
+                                <a className="offsetBorder m-[20px]" href="https://www.tiktok.com/@pablo.anmuar?_t=8iXlSVSwJHC&_r=1" rel='noreferrer' target='_blank'>
+                                    <FaTiktok className="ease-in duration-200" id="spotify" />
                                 </a>
                             </div>
-    */}
+                            <div className="borderwrapper inline-flex align-middle justify-center ml-[0px] md:ml-[20px]">
+                                <a className="offsetBorder m-[20px]" href="https://www.youtube.com/channel/UChec6FqYBkUM4c1xLnibC-g" rel='noreferrer' target='_blank'>
+                                    <FaYoutube className="ease-in duration-200" id="youtube" />
+                                </a>
+                            </div>
+                        </div>
+                        <div className='flex justify-center'>
                             <div className="borderwrapper inline-flex align-middle justify-center">
                                 <a className="offsetBorder m-[20px]" href="https://open.spotify.com/artist/4jPN3jx8MwNtQMJ6PD46yJ" rel='noreferrer' target='_blank'>
-                                    <FaSpotify className="text-green-500 ease-in duration-200" id="spotify" />
+                                    <FaSpotify className="ease-in duration-200" id="spotify" />
                                 </a>
                             </div>
-                            <div className="borderwrapper inline-flex align-middle justify-center ml-[20px]">
-                                <a className="offsetBorder m-[20px]" href="https://www.youtube.com/channel/UChec6FqYBkUM4c1xLnibC-g" rel='noreferrer' target='_blank'>
-                                    <FaYoutube className="text-red-500 ease-in duration-200" id="youtube" />
-                                </a>
-                            </div>
-                            <div className="borderwrapper inline-flex align-middle justify-center ml-[20px]">
+                            <div className="borderwrapper inline-flex align-middle justify-center ml-[0px] md:ml-[20px]">
                                 <a className="offsetBorder m-[20px]" href="https://music.apple.com/us/artist/pablo-anmuar/1667428210" rel='noreferrer' target='_blank'>
-                                    <SiApplemusic className="text-pink-500 ease-in duration-200" id="applemusic" />
+                                    <SiApplemusic className="ease-in duration-200" id="applemusic" />
+                                </a>
+                            </div>
+                            <div className="borderwrapper inline-flex align-middle justify-center ml-[0px] md:ml-[20px]">
+                                <a className="offsetBorder m-[20px]" href="https://on.soundcloud.com/mUuP5" rel='noreferrer' target='_blank'>
+                                    <FaSoundcloud className="ease-in duration-200" id="applemusic" />
+                                </a>
+                            </div>
+                        </div>
+                        <div className='flex justify-center'>
+                            <div className="borderwrapper inline-flex align-middle justify-center">
+                                <a className="offsetBorder m-[20px]" href="https://www.instagram.com/pablo.anmuar?igsh=OHJnODBxNnFiMHFi" rel='noreferrer' target='_blank'>
+                                    <SiInstagram className="ease-in duration-200" id="spotify" />
+                                </a>
+                            </div>
+                            <div className="borderwrapper inline-flex align-middle justify-center ml-[0px] md:ml-[20px]">
+                                <a className="offsetBorder m-[20px]" href="https://www.facebook.com/Pablo.Anmuar?mibextid=ZbWKwL" rel='noreferrer' target='_blank'>
+                                    <FaFacebook className="ease-in duration-200" id="spotify" />
                                 </a>
                             </div>
                         </div>
