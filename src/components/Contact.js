@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 function Contact() {
     const { t } = useTranslation();
     return (
-        <div id="contact" className="w-[100vw] bg-[#f7ce5b]">
+        <div id="contact" className="w-[100vw] bg-[#e9f1f7]">
             <div className='bg-[#e9f1f7]' >
                 <div>
                     <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[25vh] sm:h-[30vh] min-h-[200px] block ml-auto mr-auto">
@@ -84,6 +84,10 @@ function Contact() {
                         <img src="media/pabloDoodle2.png" alt="" className="block ml-auto mr-auto w-[15vw] min-w-[200px]" />
                     </div>
                 </div>
+            </div>
+            <div className='text-right font-["Patrick_Hand"] text-[20px] p-[20px] pr-[40px]'>
+                <h3 className='inline-block'>Made by <a href="https://ryanchristopher.vercel.app/" target='_blank' rel="noreferrer" className='underline hover:text-[#d1603d] transition-all ease-in'>Ryan Christopher<img src="media/ryanmoji.png" alt="Emoji of Ryan, the developer of this website." className='inline-block relative ml-auto top-[20px] w-[75px] hover:scale-125 transition-all ease-in' /></a></h3>
+
             </div>
         </div>
     )
