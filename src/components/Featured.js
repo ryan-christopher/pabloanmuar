@@ -17,7 +17,7 @@ function Featured() {
                     <h3 className="font-['Yatra_One'] uppercase text-center lg:text-left lg:pl-[25%] pt-[30px] text-[40px] lg:text-[75px]">House Show</h3>
                     <p className="font-['Patrick_Hand'] w-[90%] sm:w-[75%] pl-[15%] sm:pl-[25%] pt-[30px] text-[25px] md:text-[30px]">{t('description.latestrelease')}</p>
                     <h3 className="font-['Yatra_One'] uppercase text-right pr-[15%] md:pr-[28%] pt-[20px] text-[25px]">-Pablo</h3>
-                    <h3 className="font-['Yatra_One'] pl-[15%] sm:pl-[27%] pt-[50px] text-[#f7ce5b]">Listen Now</h3>
+                    <h3 className="font-['Yatra_One'] pl-[15%] sm:pl-[27%] pt-[50px] text-[#f7ce5b]">{t('description.listennow')}</h3>
                     <hr className="border-[#f7ce5b] w-[70vw] sm:w-[30vw] block ml-auto mr-auto" />
                     <div className='flex align-middle justify-center pt-[15px] pb-[15px] text-[30px] mt-[10px] mb-[10px]'>
                         <div className="borderwrapper flex align-middle justify-center">
