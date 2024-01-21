@@ -20,6 +20,13 @@ html{
     font-size: 30px;
     text-align: center; 
   }
+
+.flex-container-reverse{
+  display: flex;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    text-align: center; 
+}
   
   .flex-item-left50 {
     padding: 0px;
@@ -32,9 +39,12 @@ html{
   }
   
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1024px) {
     .flex-container {
       flex-direction:column-reverse;
+    }
+    .flex-container-reverse{
+      flex-direction: column;
     }
 }
 

@@ -30,7 +30,7 @@ function MusicEntry({ title, photo, spotlink, ytlink, applelink, spotEmbed, cred
     }
 
     return (
-        <div className='w-[100vw] text-white min-h-[352px] mt-[calc(5vh+50px)] mb-[calc(5vh+50px)] bg-[#222725] group'>
+        <div className='w-full text-white min-h-[352px] mt-[calc(5vh+50px)] mb-[calc(5vh+50px)] bg-[#222725] group'>
             <h2 className="font-['Yatra_One'] text-[27px] sm:text-[40px] lg:text-[50px] ml-[20px]">{title}</h2>
             <div className='flex flex-col lg:flex-row lg:min-h-[352px] lg:h-[35vh]'>
                 <div className='flex-initial whitespace-nowrap max-w-[100vw] lg:w-[40vw]'>

@@ -42,7 +42,11 @@ i18n
                         gameovercredit: 'Producer and mixing engineer.',
                         timidocredit: 'Co-writer, co-producer and co-mixing engineer alongside Angel Javier.',
                         analogcredit: 'Producer on Track #1, #4 and #5, Co-writer on Track #4 and #5',
-                        keepmeclosecredit: 'Co-writer, co-producer and co-mixing engineer alongside Angel Javier.'
+                        keepmeclosecredit: 'Co-writer, co-producer and co-mixing engineer alongside Angel Javier.',
+                        bio: 'Bio',
+                        biop1: 'Pablo Andrés Muñoz Armella was born on May 7, 1999 in Bogotá D.C., Colombia.  The youngest of three, Pablo started showing interest in music at a young age; at three years old, Pablo was already singing songs by Queen, Juanes, Carlos Vives, Michael Jackson. This interest in music had been cultivated by his father, Mario Leonel Muñoz Buitrago, who would play music from all around the world even before Pablo or his siblings were born. The diversity of sounds in the music that his father played, introduced Pablo to the world of music as an art form.',
+                        biop2: "At the age of seven, after his family moved from Bogotá to Bucaramanga, Pablo joined his school's choir. At the age of 11, Pablo started to show interest on playing the Bass; however, his father asked him to consider playing the guitar instead, since they already had one that belonged to his brother. Having recently discovered The Beatles, Pablo started learning their songs and, soon, became fond of the guitar, leaving his interest on bass behind. Right after his 12th birthday, Pablo started taking guitar and music theory lessons. With the years, his interest in studying music and playing with his friends increased.  He formed a band with his two best friends at the age of 14, and that same year he decided that he wanted to pursue music as a career. At the age of 15 he started taking piano lessons, and a year later he attended “Berklee Latino”, a Berklee On the Road program directed to musicians from Latin America; this was the first contact that he had with the school where he wanted to study to become a professional musician.",
+                        biop3: 'After graduating high school at 16 years old, Pablo moved back to Bogotá, he started studying music at Escuela de Música, Medios, Arte y Tecnología, EMMAT. From 2016 to 2018 he studied Contemporary Music under the guidance of professors who had graduated from Berklee College of Music. On the fall of 2018, he transferred his college credits to Berklee College of Music and started studying Contemporary Writing and Production. During his time in the college, Pablo has worked on building high level writing and production abilities. He has collaborated with many of his fellow students in different arrangements and compositions. He has co-produced and co-written two singles with the artist Javier, produced one single with LA artist Felice. Pablo graduated Summa Cum Laude from Berklee College of Music on May 2021.'
                     }
                 }
             },
@@ -76,7 +80,8 @@ i18n
                         gameovercredit: 'Productor e ingeniero de mezcla.',
                         timidocredit: 'Co-compositor, productor e ingeniero de mezcla junto a Angel Javier.',
                         analogcredit: 'Productor en las pistas #1, #4 y #5, coautor en las pistas #4 y #5.',
-                        keepmeclosecredit: 'Co-compositor, productor e ingeniero de mezcla junto a Angel Javier.'
+                        keepmeclosecredit: 'Co-compositor, productor e ingeniero de mezcla junto a Angel Javier.',
+                        bio: 'Biografia',
                     }
                 }
             }

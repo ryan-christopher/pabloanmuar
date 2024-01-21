@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 function Contact() {
     const { t } = useTranslation();
     return (
-        <div id="contact" className="w-[100vw] bg-[#e9f1f7]">
+        <div id="contact" className="w-full bg-[#e9f1f7]">
             <div className='bg-[#e9f1f7]' >
                 <div>
                     <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[25vh] sm:h-[30vh] min-h-[200px] block ml-auto mr-auto">

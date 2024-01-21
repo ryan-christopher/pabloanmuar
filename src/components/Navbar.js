@@ -42,6 +42,22 @@ function Navbar({ currPage }) {
                 <li><a className='sm:mt-[8px] lg:mt-[0]' href="/#contact">{t('description.contact')}</a></li>
             </ul>
     }
+    else if (currPage === "bio") {
+        mobilelinks =
+            <div>
+                <a href="/#home" className="mobilemenu-link" onClick={menutoggle()}>{t('description.home')}</a>
+                <a href="/portfolio" className="mobilemenu-link" onClick={menutoggle()}>{t('description.portfolio')}</a>
+                <a href="/#about" className="mobilemenu-link" onClick={menutoggle()}>{t('description.about')}</a>
+                <a href="/#contact" className="mobilemenu-link" onClick={menutoggle()}>{t('description.contact')}</a>
+            </div>
+        desktoplinks =
+            <ul className="desktopnavlinks font-['Yatra_One'] sm:text-[23px] lg:text-[30px]">
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="/#home">{t('description.home')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="/portfolio">{t('description.portfolio')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="/#about">{t('description.about')}</a></li>
+                <li><a className='sm:mt-[8px] lg:mt-[0]' href="/#contact">{t('description.contact')}</a></li>
+            </ul>
+    }
 
     return (
         <div>

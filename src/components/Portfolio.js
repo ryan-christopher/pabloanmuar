@@ -8,7 +8,7 @@ import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 function Portfolio() {
     const { t } = useTranslation();
     return (
-        <div id="portfolio" className="min-h-[100vh] w-[100vw] bg-[#222725] text-white">
+        <div id="portfolio" className="min-h-[100vh] w-full bg-[#222725] text-white">
             <div>
                 <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[35vh] sm:h-[45vh] min-h-[300px] block ml-auto mr-auto">
                     <ParallaxBannerLayer image="media/desk.jpg" speed={10} />
@@ -19,7 +19,7 @@ function Portfolio() {
                     </ParallaxBannerLayer>
                 </ParallaxBanner>
             </div>
-            <span className='block ml-auto mr-auto w-[100vw] align-center text-right'>
+            <span className='block ml-auto mr-auto w-full align-center text-right'>
                 <Parallax rotate={[-30, 30]} className="w-[10vw] min-w-[120px] inline-block max-w-[200px] 
                         ease-linear duration-[50ms] mr-[10vw]">
                     <img src="media/pabdood.png" alt="" className="p-[0px] mt-[50px] opacity-100 hover:scale-125 ease-in duration-200" aria-hidden="true" />
@@ -111,7 +111,7 @@ function Portfolio() {
                     </h2>
                 </div>
             </div>
-            <div className='flex flex-wrap min-h-[1000px] justify-center w-[100vw]'>
+            <div className='flex flex-wrap min-h-[1000px] justify-center w-full'>
                 <Video videolink={"https://www.youtube-nocookie.com/embed/84Anqc2-K40?si=fV-lOv8ghAcqJE_X"} />
                 <Video videolink={"https://www.youtube-nocookie.com/embed/uO2_d3x7AFQ?si=M1t-nTLIAaZGffB9"} />
                 <Video videolink={"https://www.youtube-nocookie.com/embed/9EDQTycAYw0?si=iEyUg9Rq3KJiLltj"} />

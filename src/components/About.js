@@ -48,6 +48,15 @@ function About() {
                         {t('description.about4')}
                     </div>
                 </div>
+
+                <div className="borderwrapper p-[50px] pt-[120px] w-fit min-w-[300px] block ml-auto mr-auto">
+                    <a href="/bio" className='bg-[#d1603d] offsetBorder !border-black rounded-[5px] block ml-auto mr-auto'>
+                        <h2 className='font-["Yatra_One"] uppercase text-[25px] md:text-[40px] lg:text-[60px] text-center ease-in duration-200'>
+                            {t('description.bio')}
+                        </h2>
+                    </a>
+                </div>
+
                 <h2 className='font-["Yatra_One"] uppercase text-black pt-[5vh] text-[40px] md:text-[50px] lg:text-[70px] text-center'>
                     {t('description.featuredon')}
                 </h2>

@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
+import Bio from './pages/bio'
 import Styling from './pages/styling'
 import './styles/App.css';
 import React from 'react'
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/styling" element={<Styling />} />
+          <Route path="/bio" element={<Bio />} />
 
         </Routes>
       </div>
