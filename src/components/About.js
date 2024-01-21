@@ -48,6 +48,17 @@ function About() {
                         {t('description.about4')}
                     </div>
                 </div>
+                <h2 className='font-["Yatra_One"] uppercase text-black pt-[5vh] text-[40px] md:text-[50px] lg:text-[70px] text-center'>
+                    {t('description.featuredon')}
+                </h2>
+                <hr className="border-[#d1603d] w-[70vw] sm:w-[30vw] border-[3px] rounded-md block ml-auto mr-auto" />
+                <div className='flex flex-wrap justify-center w-[100vw]'>
+                    <iframe title="Bravo Feature" className='min-h-[500px] min-w-[300px] md:min-w-[500px] w-[90vw] md:w-[30vw] m-[30px]'
+                        src="https://bravorevista.com/pablo-anmuar-lanza-244-am-youre-the-kind-of-girl/" frameborder="0"></iframe>
+                    <iframe title="Bravo Feature" className='min-h-[500px] min-w-[300px] md:min-w-[500px] w-[90vw] md:w-[30vw] m-[30px]'
+                        src="https://www.freim.tv/radarfreim-playlist-con-canciones-nuevas-en-espanol/" frameborder="0"></iframe>
+                    <iframe title="Soundcloud Interview" className='w-[70%] min-w-[300px] md:min-w-[500px] h-[300px]' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1723852362&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
             </div>
         </div >
     )
