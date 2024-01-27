@@ -65,6 +65,8 @@ function About() {
                     <iframe title="Bravo Feature" className='min-h-[500px] min-w-[300px] md:min-w-[500px] w-[90vw] md:w-[30vw] m-[30px]'
                         src="https://bravorevista.com/pablo-anmuar-lanza-244-am-youre-the-kind-of-girl/" frameborder="0"></iframe>
                     <iframe title="Bravo Feature" className='min-h-[500px] min-w-[300px] md:min-w-[500px] w-[90vw] md:w-[30vw] m-[30px]'
+                        src="https://voyagela.com/interview/life-work-with-pablo-anmuar-of-boston/" frameborder="0"></iframe>
+                    <iframe title="Bravo Feature" className='min-h-[500px] min-w-[300px] md:min-w-[500px] w-[90vw] md:w-[30vw] m-[30px]'
                         src="https://www.freim.tv/radarfreim-playlist-con-canciones-nuevas-en-espanol/" frameborder="0"></iframe>
                     <iframe title="Soundcloud Interview" className='w-[70%] min-w-[300px] md:min-w-[500px] h-[300px]' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1723852362&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </div>
