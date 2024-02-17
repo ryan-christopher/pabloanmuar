@@ -12,12 +12,12 @@ function MiniPortfolio() {
                 ytlink={"https://www.youtube.com/watch?v=KMWzvT2tdro&list=OLAK5uy_mL9ifirOgEaGs62JE392a6if-PvekPNvI&ab_channel=PABLO.ANMUAR-Topic"}
                 applelink={"https://music.apple.com/us/album/house-show-ep/1711989841"}
                 credited={t('description.housecredit')} />
-            <MusicEntry title={"2:44 AM"} photo={"media/244.jpg"}
-                spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"}
-                spotlink={"https://open.spotify.com/track/5XKzgVOqejBPnvMVBRDhS9?si=bedcad31d65048de"}
-                ytlink={"https://www.youtube.com/watch?v=84Anqc2-K40&ab_channel=PABLO.ANMUAR"}
-                applelink={"https://music.apple.com/us/album/2-44-am-youre-the-kind-of-girl-single/1667454232"}
-                credited={t('description.credit244')} />
+            <MusicEntry title={"Ya Sé"} photo={"media/yase.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/album/3dEX360KYGSCSPPop6N9Fo?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/3dEX360KYGSCSPPop6N9Fo?si=nzTANspuRtOgk1G8rSbMTA"}
+                ytlink={"https://www.youtube.com/watch?v=QUV-siqWjpw&list=OLAK5uy_nd6vXz2_L1MgvUELU54MzKkHp_z0UaccQ"}
+                applelink={"https://music.apple.com/us/album/ya-s%C3%A9-single/1726715755"}
+                credited={t('description.yasecredit')} />
             <div className="borderwrapper p-[50px] pt-[60px] pb-[70px] mb-[20px] w-fit block ml-auto mr-auto">
                 <a href="/portfolio" className='bg-[#d1603d] offsetBorder !border-black rounded-[5px] block ml-auto mr-auto'>
                     <h2 className='font-["Yatra_One"] uppercase text-[25px] md:text-[40px] lg:text-[60px] text-center ease-in duration-200'>

@@ -32,6 +32,30 @@ function Portfolio() {
                     </h2>
                 </div>
             </div>
+            <MusicEntry title={"Ya Sé"} photo={"media/yase.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/album/3dEX360KYGSCSPPop6N9Fo?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/3dEX360KYGSCSPPop6N9Fo?si=nzTANspuRtOgk1G8rSbMTA"}
+                ytlink={"https://www.youtube.com/watch?v=QUV-siqWjpw&list=OLAK5uy_nd6vXz2_L1MgvUELU54MzKkHp_z0UaccQ"}
+                applelink={"https://music.apple.com/us/album/ya-s%C3%A9-single/1726715755"}
+                credited={t('description.yasecredit')} />
+            <MusicEntry title={"Inspo From Lar - Storyarxh"} photo={"media/inspofromlar.jpeg"}
+                spotEmbed={"https://open.spotify.com/embed/album/1n1CLcBnpWyDtzSWvyqsCa?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/1n1CLcBnpWyDtzSWvyqsCa?si=aXYPqsVcS8Wuajf2b7y_Tw"}
+                ytlink={"https://www.youtube.com/watch?v=FDZezsbiXgs&list=OLAK5uy_n1Q6g-pnfBjj0C63eorYN_VHlkxdELdPQ"}
+                applelink={"https://music.apple.com/us/album/inspo-from-lar/1730924335?i=1730924336"}
+                credited={t('description.inspofromlarcredit')} />
+            <MusicEntry title={"AMY - BTC Records"} photo={"media/AMY.png"}
+                spotEmbed={"https://open.spotify.com/embed/album/0V7PGMbalVxFx2ToWGg8wl?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/0V7PGMbalVxFx2ToWGg8wl?si=xTdvDgI5QJStEnI00yJvQA"}
+                ytlink={"https://www.youtube.com/watch?v=fqgaVtNJiyk&list=OLAK5uy_lrlQGq_3gRkzvCu1WDrUbxbpNGQzfNbYM"}
+                applelink={"https://music.apple.com/us/album/amy/1730944589"}
+                credited={t('description.amycredit')} />
+            <MusicEntry title={"rises the moon - BTC Records ft. Jynx Starr"} photo={"media/risesthemoon.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/album/7MWqWJUDPyVxoLTpBptThI?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/7MWqWJUDPyVxoLTpBptThI?si=UfaCRtjaQ8m3uBb6hoFbLg"}
+                ytlink={"https://youtu.be/vtxLkPG-s-M?si=LN10_Dd6p8ghZW2e"}
+                applelink={"https://music.apple.com/us/album/rises-the-moon-feat-jynx-starr/1730655448?i=1730655450"}
+                credited={t('description.risesthemooncredit')} />
             <MusicEntry title={"Bleed Out - Aruna"} photo={"media/bleedout.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/0iYACdqhsnwAOTfEHLFz8b?utm_source=generator"}
                 spotlink={"https://open.spotify.com/album/0iYACdqhsnwAOTfEHLFz8b?si=Ry1U8F7LQEaPjliwBXIv0Q"}
