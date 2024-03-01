@@ -30,8 +30,14 @@ function Portfolio() {
                     <h2 className='font-["Waiting_for_the_Sunrise"] text-[50px] pl-[calc(5vw+30px)] pr-[calc(5vw+30px)] md:text-[70px] lg:text-[80px] text-center ease-in duration-200'>
                         {t('description.music')}
                     </h2>
-                </div>
+                </div>  
             </div>
+            <MusicEntry title={"JOHN KRAMER - Storyarxh, Tact"} photo={"media/jk.jpeg"}
+                spotEmbed={"https://open.spotify.com/embed/track/37nIefrp5pv3Yr2vkmayiW?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/0HiJvPQUm28bjwNG0bhRX0?si=7gNaiINJT-aJwFPIjFuwOg"}
+                ytlink={"https://www.youtube.com/watch?v=EZyJaDsRK4E&ab_channel=Storyarxh-Topic"}
+                applelink={"https://music.apple.com/us/album/john-kramer-feat-tact-single/1732587584"}
+                credited={t('description.jkcredit')} />
             <MusicEntry title={"Ya Sé"} photo={"media/yase.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/album/3dEX360KYGSCSPPop6N9Fo?utm_source=generator"}
                 spotlink={"https://open.spotify.com/album/3dEX360KYGSCSPPop6N9Fo?si=nzTANspuRtOgk1G8rSbMTA"}
