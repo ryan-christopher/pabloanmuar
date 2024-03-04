@@ -32,7 +32,7 @@ function Portfolio() {
                     </h2>
                 </div>  
             </div>
-            <MusicEntry title={"JOHN KRAMER - Storyarxh, Tact"} photo={"media/jk.jpeg"}
+            <MusicEntry title={"JOHN KRAMER - Storyarxh, Tact"} photo={"media/jk.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/track/37nIefrp5pv3Yr2vkmayiW?utm_source=generator"}
                 spotlink={"https://open.spotify.com/album/0HiJvPQUm28bjwNG0bhRX0?si=7gNaiINJT-aJwFPIjFuwOg"}
                 ytlink={"https://www.youtube.com/watch?v=EZyJaDsRK4E&ab_channel=Storyarxh-Topic"}
