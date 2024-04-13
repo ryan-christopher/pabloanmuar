@@ -46,6 +46,8 @@ function Biography() {
                 <hr className="border-[#f7ce5b] w-[70vw] sm:w-[30vw] border-[3px] rounded-md block ml-auto mr-auto" />
                 <div className='flex flex-wrap justify-center w-[100vw]'>
                     <iframe title="Bravo Feature" className='min-h-[500px] min-w-[300px] md:min-w-[500px] w-[90vw] md:w-[30vw] m-[30px]'
+                        src="https://boldjourney.com/meet-pablo-anmuar/" frameborder="0"></iframe>
+                    <iframe title="Bravo Feature" className='min-h-[500px] min-w-[300px] md:min-w-[500px] w-[90vw] md:w-[30vw] m-[30px]'
                         src="https://www.freim.tv/radarfreim-playlist-nuevas-propuestas-hispanas-26-feb-03-mar-2024/" frameborder="0"></iframe>
                     <iframe title="Bravo Feature" className='min-h-[500px] min-w-[300px] md:min-w-[500px] w-[90vw] md:w-[30vw] m-[30px]'
                         src="https://www.zonaemergente.com/2024/02/pabloanmuar-ya-se.html?m=1&fbclid=IwAR2HDWb9fmCSNnSrLAiMsAqxdnOhY02MpSG1-VZKZd5aKwuHZePknOrVEGM" frameborder="0"></iframe>
