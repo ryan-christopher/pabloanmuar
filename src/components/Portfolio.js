@@ -32,6 +32,24 @@ function Portfolio() {
                     </h2>
                 </div>  
             </div>
+            <MusicEntry title={"Soulless Trap - Lo Key Blaque"} photo={"media/slt.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/album/0R32b55QQ5ULp0lWD9JnaB?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/0R32b55QQ5ULp0lWD9JnaB?si=e4B5-dZSQL6SORIse_5uYQ"}
+                ytlink={"https://www.youtube.com/watch?v=l8SlsWgWGak&list=OLAK5uy_nyW42OOHSGqtgxAZIkiiFty9Dhg2qa1pE"}
+                applelink={"https://music.apple.com/us/album/soulless-trap-ep/1745600113"}
+                credited={t('description.soulcredit')} />
+            <MusicEntry title={"Soulful Emotions - Lo Key Blaque"} photo={"media/sfe.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/album/4G1b1x8YaCAWBkhoukO7gj?utm_source=generator"}
+                spotlink={"https://open.spotify.com/album/4G1b1x8YaCAWBkhoukO7gj?si=z51Qmdu1ReSrQ2dOh_8lZA"}
+                ytlink={"https://www.youtube.com/watch?v=e7qGCC9rDEE&list=OLAK5uy_mWfJtU1cmsxQPgx5KQbAGcd-KUMY7sxLI"}
+                applelink={"https://music.apple.com/us/album/soulful-emotions-ep/1745479427"}
+                credited={t('description.soulcredit')} />
+            <MusicEntry title={"LOYALTY - Storyarxh"} photo={"media/lty.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/album/4PbfTIEIGMLJLnEmvyKURy?utm_source=generator"}
+                spotlink={"https://open.spotify.com/track/43NfTHNKotRfyt8EUsewJw?si=b0d437801e7f4203"}
+                ytlink={"https://youtu.be/epNmcPCo-NY?si=xRgNYcXDINyVnSgL"}
+                applelink={"https://music.apple.com/us/album/loyalty-single/1744631966"}
+                credited={t('description.inspofromlarcredit')} />
             <MusicEntry title={"JOHN KRAMER - Storyarxh, Tact"} photo={"media/jk.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/track/37nIefrp5pv3Yr2vkmayiW?utm_source=generator"}
                 spotlink={"https://open.spotify.com/album/0HiJvPQUm28bjwNG0bhRX0?si=7gNaiINJT-aJwFPIjFuwOg"}
@@ -74,13 +92,13 @@ function Portfolio() {
                 ytlink={"https://www.youtube.com/watch?v=KMWzvT2tdro&list=OLAK5uy_mL9ifirOgEaGs62JE392a6if-PvekPNvI&ab_channel=PABLO.ANMUAR-Topic"}
                 applelink={"https://music.apple.com/us/album/house-show-ep/1711989841"}
                 credited={t('description.housecredit')} />
-            <MusicEntry title={"Not Me - Manny Force"} photo={"media/notme.png"}
+            <MusicEntry title={"Not Me - Manny Force,SLVG, Lo Key Blaque"} photo={"media/notme.png"}
                 spotEmbed={"https://open.spotify.com/embed/track/4M5GiwyPY2TabIG8Rc5rF8?utm_source=generator"}
                 spotlink={"https://open.spotify.com/track/4M5GiwyPY2TabIG8Rc5rF8?si=dc96d0779c744597"}
                 ytlink={"https://www.youtube.com/watch?v=g95pm_82D2E&ab_channel=MANNYFORCE"}
                 applelink={"https://music.apple.com/us/album/not-me-single/1709393911"}
                 credited={t('description.notmecredit')} />
-            <MusicEntry title={"Let it Pop - Manny Force"} photo={"media/letitpop.png"}
+            <MusicEntry title={"Let it Pop - Manny Force,SLVG, Lo Key Blaque"} photo={"media/letitpop.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/4M7NKjrpyNfbz8IyC1fwrV?utm_source=generator"}
                 spotlink={"https://open.spotify.com/track/5IMo9ctDDUrouWUEMRr60A?si=e7c9e889ffd74366"}
                 ytlink={"https://www.youtube.com/watch?v=GUxxAMUFGvs&ab_channel=MannyForce-Topic"}
