@@ -11,7 +11,7 @@ function Featured() {
         <div>
             <div className="flex-container bg-[#222725] text-white ease-in duration-200 overflow-hidden">
                 <div className="flex-item-left">
-                    <img src="media/CC.jpg" alt="" className='h-full w-full object-cover' />
+                    <img src="media/chopped.jpg" alt="" className='h-full w-full object-cover' />
                 </div>
                 <div className="flex-item-right text-left">
                     <h3 className="font-['Yatra_One'] uppercase text-center lg:text-left lg:pl-[25%] pt-[30px] text-[40px] lg:text-[75px]">CHOPPED CHEESE</h3>

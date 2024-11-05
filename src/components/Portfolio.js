@@ -32,7 +32,7 @@ function Portfolio() {
                     </h2>
                 </div>  
             </div>
-            <MusicEntry title={"CHOPPED CHEESE - PABLO.ANMUAR"} photo={"media/CC.jpg"}
+            <MusicEntry title={"CHOPPED CHEESE - PABLO.ANMUAR"} photo={"media/chopped.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/track/0uRHeknUizDfuVEhDKLYOD?utm_source=generator"}
                 spotlink={"https://open.spotify.com/track/0uRHeknUizDfuVEhDKLYOD?si=54840ce30b4a4f5c"}
                 ytlink={"https://youtu.be/vqf4GZ9E4dg"}
