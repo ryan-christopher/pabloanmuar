@@ -32,6 +32,12 @@ function Portfolio() {
                     </h2>
                 </div>  
             </div>
+            <MusicEntry title={"CHOPPED CHEESE - PABLO.ANMUAR"} photo={"media/CC.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/track/0uRHeknUizDfuVEhDKLYOD?utm_source=generator"}
+                spotlink={"https://open.spotify.com/track/0uRHeknUizDfuVEhDKLYOD?si=54840ce30b4a4f5c"}
+                ytlink={"https://youtu.be/vqf4GZ9E4dg"}
+                applelink={"https://music.apple.com/us/album/chopped-cheese-single/1774595959"}
+                credited={t('description.choppedcredit')} />
             <MusicEntry title={"Soulless Trap - Lo Key Blaque"} photo={"media/slt.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/album/0R32b55QQ5ULp0lWD9JnaB?utm_source=generator"}
                 spotlink={"https://open.spotify.com/album/0R32b55QQ5ULp0lWD9JnaB?si=e4B5-dZSQL6SORIse_5uYQ"}
@@ -56,7 +62,7 @@ function Portfolio() {
                 ytlink={"https://www.youtube.com/watch?v=EZyJaDsRK4E&ab_channel=Storyarxh-Topic"}
                 applelink={"https://music.apple.com/us/album/john-kramer-feat-tact-single/1732587584"}
                 credited={t('description.jkcredit')} />
-            <MusicEntry title={"Ya Sé"} photo={"media/yase.jpg"}
+            <MusicEntry title={"Ya Sé - PABLO.ANMUAR"} photo={"media/yase.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/album/3dEX360KYGSCSPPop6N9Fo?utm_source=generator"}
                 spotlink={"https://open.spotify.com/album/3dEX360KYGSCSPPop6N9Fo?si=nzTANspuRtOgk1G8rSbMTA"}
                 ytlink={"https://www.youtube.com/watch?v=QUV-siqWjpw&list=OLAK5uy_nd6vXz2_L1MgvUELU54MzKkHp_z0UaccQ"}
@@ -86,7 +92,7 @@ function Portfolio() {
                 ytlink={"https://youtu.be/dh4fZisYL5M?si=9kPnnW1pMoyXUNVR"}
                 applelink={"https://music.apple.com/us/album/bleed-out-single/1722824724"}
                 credited={t('description.bleedoutcredit')} />
-            <MusicEntry title={"House Show"} photo={"media/HouseShow.png"}
+            <MusicEntry title={"House Show - PABLO.ANMUAR"} photo={"media/HouseShow.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/6dif3SiguAxTUF7yNfZC7Y?utm_source=generator"}
                 spotlink={"https://open.spotify.com/album/6dif3SiguAxTUF7yNfZC7Y?si=t7tpr8j7SZWbSL4zfE-JYg"}
                 ytlink={"https://www.youtube.com/watch?v=KMWzvT2tdro&list=OLAK5uy_mL9ifirOgEaGs62JE392a6if-PvekPNvI&ab_channel=PABLO.ANMUAR-Topic"}
@@ -98,7 +104,7 @@ function Portfolio() {
                 ytlink={"https://www.youtube.com/watch?v=g95pm_82D2E&ab_channel=MANNYFORCE"}
                 applelink={"https://music.apple.com/us/album/not-me-single/1709393911"}
                 credited={t('description.notmecredit')} />
-            <MusicEntry title={"Let it Pop - Manny Force,SLVG, Lo Key Blaque"} photo={"media/letitpop.png"}
+            <MusicEntry title={"Let it Pop - Manny Force, SLVG, Lo Key Blaque"} photo={"media/letitpop.png"}
                 spotEmbed={"https://open.spotify.com/embed/album/4M7NKjrpyNfbz8IyC1fwrV?utm_source=generator"}
                 spotlink={"https://open.spotify.com/track/5IMo9ctDDUrouWUEMRr60A?si=e7c9e889ffd74366"}
                 ytlink={"https://www.youtube.com/watch?v=GUxxAMUFGvs&ab_channel=MannyForce-Topic"}
@@ -116,7 +122,7 @@ function Portfolio() {
                 ytlink={"https://youtu.be/CtCC213nUf0?si=YPYZU_EQ_KYX2CsI"}
                 applelink={"https://music.apple.com/us/album/crave/1685844225?i=1685844631"}
                 credited={t('description.cravecredit')} />
-            <MusicEntry title={"2:44 AM"} photo={"media/244.jpg"}
+            <MusicEntry title={"2:44 AM - PABLO.ANMUAR"} photo={"media/244.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/album/3p8Yb7O3VzRaQb5LCzUi33?utm_source=generator"}
                 spotlink={"https://open.spotify.com/track/5XKzgVOqejBPnvMVBRDhS9?si=bedcad31d65048de"}
                 ytlink={"https://www.youtube.com/watch?v=84Anqc2-K40&ab_channel=PABLO.ANMUAR"}
@@ -160,11 +166,11 @@ function Portfolio() {
                 </div>
             </div>
             <div className='flex flex-wrap min-h-[1000px] justify-center w-full'>
+                <Video videolink={"https://www.youtube-nocookie.com/embed/vqf4GZ9E4dg?si=d7j0Kzr8k753pQtj"} />
                 <Video videolink={"https://www.youtube-nocookie.com/embed/4B6o47Eu__Y?si=HYatOdiRs3rbpeWD"} />
                 <Video videolink={"https://www.youtube-nocookie.com/embed/84Anqc2-K40?si=fV-lOv8ghAcqJE_X"} />
                 <Video videolink={"https://www.youtube-nocookie.com/embed/uO2_d3x7AFQ?si=M1t-nTLIAaZGffB9"} />
                 <Video videolink={"https://www.youtube-nocookie.com/embed/9EDQTycAYw0?si=iEyUg9Rq3KJiLltj"} />
-                <Video videolink={"https://www.youtube-nocookie.com/embed/PiqdgeU7DoM?si=34ObLCUgODFw9xn3"} />
             </div>
         </div>
     )
