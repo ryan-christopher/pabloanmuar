@@ -35,7 +35,7 @@ function Landing() {
                             {t('description.landing')}
                         </h3>
 
-                        <img src="media/logo.png" alt="Pablo as a cartoon." className='block ml-auto mr-auto w-[25%] sm:w-[30%] min-w-[125px] mt-[5vh] mb-[3vh]' />
+                        <img src="media/pabloDoodleCenter.png" alt="Pablo as a cartoon." className='block ml-auto mr-auto w-[25%] sm:w-[30%] min-w-[125px] mt-[5vh] mb-[3vh]' />
                         <h3 className='text-[30px] mt-[5vh] lg:mt-[0] lg:text-[50px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:0.5px_white]'>
                             &lt;Trágame • Música&gt;
                         </h3>

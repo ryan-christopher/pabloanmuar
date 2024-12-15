@@ -81,7 +81,7 @@ function Contact() {
                                 </a>
                             </div>
                         </div>
-                        <img src="media/pabloDoodle2.png" alt="" className="block ml-auto mr-auto w-[15vw] min-w-[200px]" />
+                        <img src="media/pabloDoodle.png" alt="" className="block ml-auto mr-auto w-[15vw] max-w-[250px] min-w-[200px]" />
                     </div>
                 </div>
             </div>

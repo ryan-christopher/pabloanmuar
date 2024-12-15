@@ -20,7 +20,7 @@
   .preload-finish {
     opacity: 0;
     pointer-events: none;
-    transition: all 1s ease 1s;
+    transition: all 0.5s ease 0.5s;
   }
   
   .resultsload-finish {

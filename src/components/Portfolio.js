@@ -20,9 +20,9 @@ function Portfolio() {
                 </ParallaxBanner>
             </div>
             <span className='block ml-auto mr-auto w-full align-center text-right'>
-                <Parallax rotate={[-30, 30]} className="w-[10vw] min-w-[120px] inline-block max-w-[200px] 
+                <Parallax rotate={[-30, 30]} className="w-[15vw] min-w-[150px] inline-block max-w-[400px] 
                         ease-linear duration-[50ms] mr-[10vw]">
-                    <img src="media/pabdood.png" alt="" className="p-[0px] mt-[50px] opacity-100 hover:scale-125 ease-in duration-200" aria-hidden="true" />
+                    <img src="media/pabloVinyl.png" alt="" className="mt-[50px] opacity-100 hover:scale-125 ease-in duration-200" aria-hidden="true" />
                 </Parallax>
             </span>
             <div className="borderwrapper w-fit ml-[calc(-2vw-10px)] mt-[-10vh] block mr-auto">
