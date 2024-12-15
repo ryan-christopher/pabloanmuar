@@ -36,7 +36,7 @@ function Contact() {
                             &lt;Trágame • Música&gt;
                         </h3>
                         <h3 className='text-[20px] mt-[2vh] lg:text-[30px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:0.5px_black]'>
-                            ©2023 Pablo Andrés Muñoz Armella
+                            ©2025 Pablo Andrés Muñoz Armella
                         </h3>
                     </div>
                     <div className="flex-item-right50 text-left justify-center">
