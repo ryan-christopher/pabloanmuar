@@ -12,9 +12,9 @@ function Landing() {
     return (
         <div id="home" className="min-h-[100vh] w-[100vw] bg-[#e9f1f7] pt-[72px]">
             <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[100vh] max-w-[100vw] sm:min-h-[800px]">
-                <ParallaxBannerLayer image="media/studio.jpg" speed={10} />
-                <ParallaxBannerLayer image="media/concert4.jpg" speed={10} className='animate-[slideshow1_30s_ease-in-out_infinite]' />
-                <ParallaxBannerLayer image="media/studioblur.jpg" speed={10} className='animate-[slideshow2_30s_ease-in-out_infinite]' />
+                <ParallaxBannerLayer image="media/bluestudio.jpg" speed={10} />
+                <ParallaxBannerLayer image="media/studio.jpg" speed={10} className='animate-[slideshow1_30s_ease-in-out_infinite]' />
+                <ParallaxBannerLayer image="media/concert4.jpg" speed={10} className='animate-[slideshow2_30s_ease-in-out_infinite]' />
                 <ParallaxBannerLayer className='bg-[#08080861] ease-in duration-200' speed={0}>
                     <div className="hidden sm:block text-white absolute top-[30vh] sm:top-[20vh] right-[20px] font-bold pb-[72px] text-[40px] sm:text-[50px] md:text-[60px] z-10">
                         <a href="https://open.spotify.com/artist/4jPN3jx8MwNtQMJ6PD46yJ" rel="noreferrer" target="_blank">
