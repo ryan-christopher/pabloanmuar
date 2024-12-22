@@ -1,0 +1,128 @@
+[
+    
+{"title":"CHOPPED CHEESE", "photo":"media/chopped.jpg", "artist": "PABLO.ANMUAR",
+"spotlink":"https://open.spotify.com/track/0uRHeknUizDfuVEhDKLYOD?si:54840ce30b4a4f5c",
+"ytlink":"https://youtu.be/vqf4GZ9E4dg",
+"applelink":"https://music.apple.com/us/album/chopped-cheese-single/1774595959",
+"credited":"choppedcredit"},
+
+
+{"title":"Soulless Trap", "photo":"media/slt.jpg", "artist": "Lo Key Blaque",
+"spotlink":"https://open.spotify.com/album/0R32b55QQ5ULp0lWD9JnaB?si=e4B5-dZSQL6SORIse_5uYQ",
+"ytlink":"https://www.youtube.com/watch?v=l8SlsWgWGak&list=OLAK5uy_nyW42OOHSGqtgxAZIkiiFty9Dhg2qa1pE",
+"applelink":"https://music.apple.com/us/album/soulless-trap-ep/1745600113",
+"credited": "soulcredit"},
+
+{"title":"Soulful Emotions", "photo":"media/sfe.jpg", "artist": "Lo Key Blaque",
+"spotlink": "https://open.spotify.com/album/4G1b1x8YaCAWBkhoukO7gj?si=z51Qmdu1ReSrQ2dOh_8lZA",
+"ytlink":"https://www.youtube.com/watch?v=e7qGCC9rDEE&list=OLAK5uy_mWfJtU1cmsxQPgx5KQbAGcd-KUMY7sxLI",
+"applelink":"https://music.apple.com/us/album/soulful-emotions-ep/1745479427",
+"credited":"soulcredit" },
+
+{"title":"LOYALTY", "photo":"media/lty.jpg","artist": "Storyarxh",
+"spotlink":"https://open.spotify.com/track/43NfTHNKotRfyt8EUsewJw?si=b0d437801e7f4203",
+"ytlink":"https://youtu.be/epNmcPCo-NY?si=xRgNYcXDINyVnSgL",
+"applelink":"https://music.apple.com/us/album/loyalty-single/1744631966",
+"credited":"inspofromlarcredit" },
+
+{"title":"JOHN KRAMER", "photo":"media/jk.jpg","artist": "Storyarxh, Tact",
+"spotlink":"https://open.spotify.com/album/0HiJvPQUm28bjwNG0bhRX0?si=7gNaiINJT-aJwFPIjFuwOg",
+"ytlink":"https://www.youtube.com/watch?v=EZyJaDsRK4E&ab_channel=Storyarxh-Topic",
+"applelink":"https://music.apple.com/us/album/john-kramer-feat-tact-single/1732587584",
+"credited":"jkcredit" },
+
+{"title":"Ya Sé", "photo":"media/yase.jpg","artist": "PABLO.ANMUAR",
+"spotlink":"https://open.spotify.com/album/3dEX360KYGSCSPPop6N9Fo?si=nzTANspuRtOgk1G8rSbMTA",
+"ytlink":"https://www.youtube.com/watch?v=QUV-siqWjpw&list=OLAK5uy_nd6vXz2_L1MgvUELU54MzKkHp_z0UaccQ",
+"applelink":"https://music.apple.com/us/album/ya-s%C3%A9-single/1726715755",
+"credited":"yasecredit" },
+
+{"title":"Inspo From Lar", "photo":"media/inspofromlar.jpeg","artist": "Storyarxh",
+"spotlink":"https://open.spotify.com/album/1n1CLcBnpWyDtzSWvyqsCa?si=aXYPqsVcS8Wuajf2b7y_Tw",
+"ytlink":"https://www.youtube.com/watch?v=FDZezsbiXgs&list=OLAK5uy_n1Q6g-pnfBjj0C63eorYN_VHlkxdELdPQ",
+"applelink":"https://music.apple.com/us/album/inspo-from-lar/1730924335?i=1730924336",
+"credited":"inspofromlarcredit" },
+
+{"title":"AMY", "photo":"media/AMY.png","artist": "BTC Records",
+"spotlink":"https://open.spotify.com/album/0V7PGMbalVxFx2ToWGg8wl?si=xTdvDgI5QJStEnI00yJvQA",
+"ytlink":"https://www.youtube.com/watch?v=fqgaVtNJiyk&list=OLAK5uy_lrlQGq_3gRkzvCu1WDrUbxbpNGQzfNbYM",
+"applelink":"https://music.apple.com/us/album/amy/1730944589",
+"credited":"amycredit" },
+
+{"title":"rises the moon", "photo":"media/risesthemoon.jpg","artist": "BTC Records ft. Jynx Starr",
+"spotlink":"https://open.spotify.com/album/7MWqWJUDPyVxoLTpBptThI?si=UfaCRtjaQ8m3uBb6hoFbLg",
+"ytlink":"https://youtu.be/vtxLkPG-s-M?si=LN10_Dd6p8ghZW2e",
+"applelink":"https://music.apple.com/us/album/rises-the-moon-feat-jynx-starr/1730655448?i=1730655450",
+"credited":"risesthemooncredit" },
+
+{"title":"Bleed Out", "photo":"media/bleedout.png","artist": "Aruna",
+"spotlink":"https://open.spotify.com/album/0iYACdqhsnwAOTfEHLFz8b?si=Ry1U8F7LQEaPjliwBXIv0Q",
+"ytlink":"https://youtu.be/dh4fZisYL5M?si=9kPnnW1pMoyXUNVR",
+"applelink":"https://music.apple.com/us/album/bleed-out-single/1722824724",
+"credited":"bleedoutcredit" },
+
+{"title":"House Show", "photo":"media/HouseShow.png","artist": "PABLO.ANMUAR",
+"spotlink":"https://open.spotify.com/album/6dif3SiguAxTUF7yNfZC7Y?si=t7tpr8j7SZWbSL4zfE-JYg",
+"ytlink":"https://www.youtube.com/watch?v=KMWzvT2tdro&list=OLAK5uy_mL9ifirOgEaGs62JE392a6if-PvekPNvI&ab_channel=PABLO.ANMUAR-Topic",
+"applelink":"https://music.apple.com/us/album/house-show-ep/1711989841",
+"credited":"housecredit" },
+
+{"title":"Not Me", "photo":"media/notme.png","artist": "Manny Force, SLVG, Lo Key Blaque",
+"spotlink":"https://open.spotify.com/track/4M5GiwyPY2TabIG8Rc5rF8?si=dc96d0779c744597",
+"ytlink":"https://www.youtube.com/watch?v=g95pm_82D2E&ab_channel=MANNYFORCE",
+"applelink":"https://music.apple.com/us/album/not-me-single/1709393911",
+"credited":"notmecredit" },
+
+{"title":"Let it Pop", "photo":"media/letitpop.png","artist": "Manny Force, SLVG, Lo Key Blaque",
+"spotlink":"https://open.spotify.com/track/5IMo9ctDDUrouWUEMRr60A?si=e7c9e889ffd74366",
+"ytlink":"https://www.youtube.com/watch?v=GUxxAMUFGvs&ab_channel=MannyForce-Topic",
+"applelink":"https://music.apple.com/us/album/let-it-pop-single/1704734299",
+"credited":"letitpopcredit"},
+
+{"title":"Situationship", "photo":"media/situationship.png","artist": "Aruna",
+"spotlink":"https://open.spotify.com/track/4P8kkguOXb56Ri2bLDGRnN?si=653f184bde274929",
+"ytlink":"https://youtu.be/8Uvvhg0h7Vk?si=SKqCZ9u0YKPKo6n8",
+"applelink":"https://music.apple.com/us/album/situationship-single/1698820111",
+"credited":"situationshipcredit" },
+
+{"title":"Crave", "photo":"media/crave.png","artist": "Aruna",
+"spotlink":"https://open.spotify.com/album/0z1zr537Rk3mjjgjjcmOgj?si=4tGGKlbjRCmhV1CJQdLkuQ",
+"ytlink":"https://youtu.be/CtCC213nUf0?si=YPYZU_EQ_KYX2CsI",
+"applelink":"https://music.apple.com/us/album/crave/1685844225?i=1685844631",
+"credited":"cravecredit" },
+
+{"title":"2:44 AM", "photo":"media/244.jpg","artist": "PABLO.ANMUAR",
+"spotlink":"https://open.spotify.com/track/5XKzgVOqejBPnvMVBRDhS9?si=bedcad31d65048de",
+"ytlink":"https://www.youtube.com/watch?v=84Anqc2-K40&ab_channel=PABLO.ANMUAR",
+"applelink":"https://music.apple.com/us/album/2-44-am-youre-the-kind-of-girl-single/1667454232",
+"credited":"credit244" },
+
+{"title":"Analog EP, Vol. 1", "photo":"media/analog.png","artist": "Angel Javier",
+"spotlink":"https://open.spotify.com/album/19tkQc1de6NXmgIBTWlnLR?si=3x_kExfxSRaSOSSJ2bOq7g",
+"ytlink":"https://www.youtube.com/watch?v=k_TSkGkHDPY&list=OLAK5uy_kKiSQKbPQq2jTmD_cRfzWiYJcRnSwOUHs",
+"applelink":"None",
+"credited":"analogcredit" },
+
+{"title":"Game Over", "photo":"media/gameover.png","artist": "Felice",
+"spotlink":"https://open.spotify.com/track/4tCMOubuNwOXchhIR6gnQl?si=e6c6a2d760414ce1",
+"ytlink":"https://youtu.be/0n7tfT3F72w?si=UuZ063pr6jMvhAjK",
+"applelink":"https://music.apple.com/us/album/game-over/1625899621?i=1625899622",
+"credited":"gameovercredit" },
+
+{"title":"Tímido", "photo":"media/timido.png","artist": "Angel Javier",
+"spotlink":"https://open.spotify.com/track/4dOwe8QImbp2OHMLrTWppB?si=ec75e433a96b4c5b",
+"ytlink":"https://youtu.be/1Hym6RncXB0?si=ue7EwziK9YKIAssE",
+"applelink":"None",
+"credited":"timidocredit" },
+
+{"title":"Something New", "photo":"media/somethingnew.png","artist": "Emily Sangder",
+"spotlink":"https://open.spotify.com/track/5yWLLCQOdJSPy6oDqQOn3F?si=7de8869941094770",
+"ytlink":"https://youtu.be/mE-crXMY8kA?si=RteLb5KEd6ic1Jsy",
+"applelink":"https://music.apple.com/us/album/something-new-single/1516323323",
+"credited":"somethingnewcredit" },
+
+{"title":"Keep Me Close", "photo":"media/keepmeclose.png","artist": "Angel Javier",
+"spotlink":"https://open.spotify.com/track/51dGypnhAfyEEeK2jUr8xs?si=ea4c6b78faf04841",
+"ytlink":"https://youtu.be/aJAx3L32Z7Q?si=59x8JllsW9GqTnAK",
+"applelink":"None",
+"credited":"keepmeclosecredit"}]
