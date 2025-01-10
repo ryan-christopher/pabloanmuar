@@ -62,14 +62,14 @@ function Modal({ handleClose, title, artist, photo, credited, spotlink, ytlink, 
             animate={'visible'}
             exit={'exit'}
           >
-        <div className="bg-[#f7ce5b] backdrop-blur-sm border-[8px] rounded-lg border-[#f7ce5b] z-50 w-[95%] md:w-[75%] xl:w-[35vw] max-w-[750px] group" onClick={(e) => e.stopPropagation()} >
+        <div className="bg-[#f7ce5b] backdrop-blur-sm border-[8px] rounded-lg border-[#f7ce5b] z-50 w-[95%] md:w-[80%] xl:w-[35vw] max-w-[800px] group" onClick={(e) => e.stopPropagation()} >
         <button className="font-['Waiting_for_the_Sunrise'] text-[#222725] font-black hover:cursor-pointer hover:scale-[1.25] text-[30px] text-center leading-[1.25] block ml-auto mr-[20px] relative top-[0px] right-[-15px] border-[3px] border-[#222725] h-[40px] w-[40px] rounded-full ease-in duration-100" onClick={handleClose}> X </button>
             <h2 className="font-['Yatra_One'] font-bold bg-[#f7ce5b] mt-[-40px] text-[#222725] text-[30px] sm:text-[40px] lg:text-[60px] text-left pl-[20px]">{title}</h2>
             <h2 className="font-['Yatra_One'] italic text-[27px] sm:text-[40px] lg:text-[40px] text-left pl-[30px] pt-[5px] bg-[#222725] rounded-t-lg">{artist}</h2>
             <div className="bg-[#222725] w-full">
-                    <img className='inline-block relative object-cover h-[300px] md:h-[400px] w-[50%] mx-auto rounded-r-md bg-[#222725] z-[55] ml-[30px] border-[#f7ce5b] border-[2px]' src={photo} alt="" />
-                    <div className='inline-block origin-center ml-[-150px] group-hover:ml-[-120px] transition-[margin] duration-300'>
-                        <img className={`h-[225px] object-cover relative overflow-visible lg:h-[75%] z-[0] inline-block animate-[spin_4s_linear_infinite] [animation-play-state:running] origin-center`} src="media/vinyl.png" alt="" />
+                    <img className='inline-block relative object-cover h-[250px] lg:h-[350px] w-[50%] mx-auto rounded-r-md bg-[#222725] z-[55] ml-[30px] border-[#f7ce5b] border-[2px]' src={photo} alt="" />
+                    <div className='inline-block origin-center ml-[-140px] group-hover:ml-[-120px] transition-[margin] duration-300'>
+                        <img className={`h-[200px] object-cover relative overflow-visible lg:h-[250px] z-[0] inline-block animate-[spin_4s_linear_infinite] [animation-play-state:running] origin-center`} src="media/vinyl.png" alt="" />
                     </div>
                     </div>
                 <div className='ml-auto mr-auto w-full min-h-[100px] justify-center items-center bg-[#222725] rounded-b-lg'>
