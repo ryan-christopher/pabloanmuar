@@ -6,6 +6,11 @@
 "applelink":"https://music.apple.com/us/album/chopped-cheese-single/1774595959",
 "credited":"choppedcredit"},
 
+{"title":"Secrets", "photo":"media/secrets.png", "artist": "David Andréas",
+"spotlink":"https://open.spotify.com/track/57nRVkyfWPmEqZQMRw56dE?si=31faf575b5ba412a",
+"ytlink":"https://youtu.be/MGzz0n_ryDU?si=eNQdMNh-EoWtwVTi",
+"applelink":"https://music.apple.com/us/album/secrets/1742917022?i=1742917023",
+"credited":"secretscredit"},
 
 {"title":"Soulless Trap", "photo":"media/slt.jpg", "artist": "Lo Key Blaque",
 "spotlink":"https://open.spotify.com/album/0R32b55QQ5ULp0lWD9JnaB?si=e4B5-dZSQL6SORIse_5uYQ",
