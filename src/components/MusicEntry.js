@@ -13,7 +13,7 @@ function MusicEntry({ title, artist, photo, spotlink, ytlink, applelink, credite
         <div className='flex text-white bg-[#222725]' >
             <motion.button className="" onClick={() => (modalOpen ? close() : open())} >
                     <img className='hover:scale-105 hover:rounded-md ease-linear duration-200 
-                    w-[45vw] sm:w-[30vw] border-[#f7ce5b] border-[2px] xl:w-[23vw] max-h-[45vw] md:max-h-[30vw] xl:max-h-[23vw] object-cover m-[10px]' 
+                    w-[40vw] sm:w-[30vw] border-[#f7ce5b] border-[2px] rounded-[5px] xl:w-[23vw] h-[45vw] max-h-[45vw] md:max-h-[30vw] xl:max-h-[23vw] object-cover m-[10px]' 
                     src={photo} alt="" />
             </motion.button>
          
