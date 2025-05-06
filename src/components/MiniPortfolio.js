@@ -7,6 +7,12 @@ function MiniPortfolio() {
     return (
         <div className="min-h-[50vh] w-[100vw] bg-[#222725] text-white pt-[50px] pb-[1px] m-0]">
             <div className='flex items-center justify-center w-full'>
+            <MusicEntry title={"CHOPPED CHEESE"} photo={"media/chopped.jpg"}
+                spotEmbed={"https://open.spotify.com/embed/album/3dEX360KYGSCSPPop6N9Fo?utm_source=generator"}
+                spotlink={"https://open.spotify.com/track/0uRHeknUizDfuVEhDKLYOD?si:54840ce30b4a4f5c"}
+                ytlink={"https://youtu.be/vqf4GZ9E4dg"}
+                applelink={"https://music.apple.com/us/album/chopped-cheese-single/1774595959"}
+                credited={t('description.choppedcredit')} />
             <MusicEntry title={"Ya Sé"} photo={"media/yase.jpg"}
                 spotEmbed={"https://open.spotify.com/embed/album/3dEX360KYGSCSPPop6N9Fo?utm_source=generator"}
                 spotlink={"https://open.spotify.com/album/3dEX360KYGSCSPPop6N9Fo?si=nzTANspuRtOgk1G8rSbMTA"}
