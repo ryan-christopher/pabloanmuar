@@ -1,4 +1,34 @@
 [
+{"title":"Self Titled 2026", "photo":"media/burnba.jpg", "artist": "Burn Babylon",
+"spotlink":"https://open.spotify.com/intl-es/artist/7KcOtw9zJrD24mVPwpFGEu?si=AKWOT7EyTw2E1ijKsMr4IQ",
+"ytlink":"https://youtube.com/playlist?list=OLAK5uy_mZKQd94joeBs0k59jrDj1LiclunmF3bN0&si=iwyqUJHRexsGVtCQ",
+"applelink":"https://music.apple.com/us/album/self-titled-2026/6767841132",
+"credited":"burnbacredit"},
+
+{"title":"Ever Since U Left Me (I Went Deaf)", "photo":"media/esylm.jpg", "artist": "French Montana x Max B",
+"spotlink":"https://open.spotify.com/intl-es/track/5ehgf6op0j2sE4lqjiTkMY?si=43ed83bf87784cba",
+"ytlink":"https://music.youtube.com/watch?v=Yqb8vZoDfvI",
+"applelink":"https://music.apple.com/us/song/ever-since-u-left-me-i-went-deaf/1870915967",
+"credited":"floaaacredit"},
+
+{"title":"Whippin that Wave", "photo":"media/whippin.jpg", "artist": "French Montana x Max B",
+"spotlink":"https://open.spotify.com/intl-es/track/22AWUZqPomG9NyQt0Pi5zp?si=f76cb193c9484a38",
+"ytlink":"https://music.youtube.com/watch?v=h4AuPlHh0fI",
+"applelink":"https://music.apple.com/us/song/whippin-that-wave/1865983120",
+"credited":"floaaacredit"},
+ 
+{"title":"Cabin in the Sky", "photo":"media/cits.jpg", "artist": "De La Soul",
+"spotlink":"https://open.spotify.com/intl-es/album/0yBlUg27MbywASeGd1uNIA?si=e6815t-eTpWckuuma3AkmQ",
+"ytlink":"https://music.youtube.com/playlist?list=OLAK5uy_lUOCwNE3BfL7qeWu6FqH2z-BVUR4ffNTE",
+"applelink":"https://music.apple.com/us/album/cabin-in-the-sky/1850512301",
+"credited":"citscredit"},
+
+{"title":"Recently Deleted", "photo":"media/floaaa.jpg", "artist": "FLO",
+"spotlink":"https://open.spotify.com/intl-es/track/49uWjZ0INI41gLJVi8DxIf?si=14880ac949674dc6",
+"ytlink":"https://music.youtube.com/watch?v=bOD62KjjeOw",
+"applelink":"https://music.apple.com/us/song/recently-deleted/1860192173",
+"credited":"floaaacredit"},
+
 {"title":"Take My Time", "photo":"media/tmyt.jpg", "artist": "Tre Loaded Ft. 03 Greedo",
 "spotlink":"https://open.spotify.com/track/4x9x6oHOVJdEA5bQrV1Sji?si=d71ce7e468df474c",
 "ytlink":"https://youtu.be/mRNYxMH2RQg?si=x52Il2pWaNhJSufc",
@@ -41,29 +71,11 @@
 "applelink":"https://music.apple.com/us/album/soulful-emotions-ep/1745479427",
 "credited":"soulcredit" },
 
-{"title":"LOYALTY", "photo":"media/lty.jpg","artist": "Storyarxh",
-"spotlink":"https://open.spotify.com/track/43NfTHNKotRfyt8EUsewJw?si=b0d437801e7f4203",
-"ytlink":"https://youtu.be/epNmcPCo-NY?si=xRgNYcXDINyVnSgL",
-"applelink":"https://music.apple.com/us/album/loyalty-single/1744631966",
-"credited":"inspofromlarcredit" },
-
-{"title":"JOHN KRAMER", "photo":"media/jk.jpg","artist": "Storyarxh, Tact",
-"spotlink":"https://open.spotify.com/album/0HiJvPQUm28bjwNG0bhRX0?si=7gNaiINJT-aJwFPIjFuwOg",
-"ytlink":"https://www.youtube.com/watch?v=EZyJaDsRK4E&ab_channel=Storyarxh-Topic",
-"applelink":"https://music.apple.com/us/album/john-kramer-feat-tact-single/1732587584",
-"credited":"jkcredit" },
-
 {"title":"Ya Sé", "photo":"media/yase.jpg","artist": "PABLO.ANMUAR",
 "spotlink":"https://open.spotify.com/album/3dEX360KYGSCSPPop6N9Fo?si=nzTANspuRtOgk1G8rSbMTA",
 "ytlink":"https://www.youtube.com/watch?v=QUV-siqWjpw&list=OLAK5uy_nd6vXz2_L1MgvUELU54MzKkHp_z0UaccQ",
 "applelink":"https://music.apple.com/us/album/ya-s%C3%A9-single/1726715755",
 "credited":"yasecredit" },
-
-{"title":"Inspo From Lar", "photo":"media/inspofromlar.jpeg","artist": "Storyarxh",
-"spotlink":"https://open.spotify.com/album/1n1CLcBnpWyDtzSWvyqsCa?si=aXYPqsVcS8Wuajf2b7y_Tw",
-"ytlink":"https://www.youtube.com/watch?v=FDZezsbiXgs&list=OLAK5uy_n1Q6g-pnfBjj0C63eorYN_VHlkxdELdPQ",
-"applelink":"https://music.apple.com/us/album/inspo-from-lar/1730924335?i=1730924336",
-"credited":"inspofromlarcredit" },
 
 {"title":"AMY", "photo":"media/AMY.png","artist": "BTC Records",
 "spotlink":"https://open.spotify.com/album/0V7PGMbalVxFx2ToWGg8wl?si=xTdvDgI5QJStEnI00yJvQA",
