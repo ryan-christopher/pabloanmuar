@@ -36,7 +36,7 @@ function Contact() {
                             &lt;Trágame • Música&gt;
                         </h3>
                         <h3 className='text-[20px] mt-[2vh] lg:text-[30px] text-center font-bold font-["Waiting_for_the_Sunrise"] [-webkit-text-stroke:0.5px_black]'>
-                            ©2025 Pablo Andrés Muñoz Armella
+                            ©2026 Pablo Andrés Muñoz Armella
                         </h3>
                     </div>
                     <div className="flex-item-right50 text-left justify-center">
@@ -86,7 +86,7 @@ function Contact() {
                 </div>
             </div>
             <div className='text-right font-["Patrick_Hand"] text-[20px] p-[20px] pr-[40px]'>
-                <h3 className='inline-block'>Made by <a href="https://ryanchristopher.vercel.app/" target='_blank' rel="noreferrer" className='underline hover:text-[#d1603d] transition-all ease-in'>Ryan Christopher<img src="media/ryanmoji.png" alt="Emoji of Ryan, the developer of this website." className='inline-block relative ml-auto top-[20px] w-[75px] hover:scale-125 transition-all ease-in' /></a></h3>
+                <h3 className='inline-block'>Made by <a href="https://ryanchristopher.net" target='_blank' rel="noreferrer" className='underline hover:text-[#d1603d] transition-all ease-in'>Ryan Christopher</a></h3>
 
             </div>
         </div>

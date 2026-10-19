@@ -10,7 +10,7 @@ function About() {
         <div id="about" className='bg-[#222725] pt-[72px] mt-[-72px]'>
             <div >
                 <ParallaxBanner style={{ aspectRatio: '1 / 1' }} className="h-[25vh] lg:h-[30vh] min-h-[200px] block ml-auto mr-auto">
-                    <ParallaxBannerLayer image="media/yellowjacket.jpg" speed={10} />
+                    <ParallaxBannerLayer image="media/musicgear.jpg" speed={10} />
                     <ParallaxBannerLayer className='bg-[#21212138]' speed={0}>
                         <h2 className='font-["Yatra_One"] uppercase text-white pt-[15vh] sm:pt-[5vh] lg:pt-[8vh] ml-[5vw] text-[60px] md:text-[80px] lg:text-[120px] text-left'>
                             {t('description.about')}
