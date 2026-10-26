@@ -12,7 +12,7 @@ function MiniPortfolio() {
                 ytlink={"https://youtu.be/vxUnTcf97fU?si=maX_j0gY1muBCdFv"}
                 applelink={"https://music.apple.com/us/album/for-the-first-time/1878107559?i=1878107560"}
                 credited={t('description.d1stxcredit')} />
-            <MusicEntry title={"M.E.G."} photo={"media/meg.png"}
+            <MusicEntry title={"M.E.G."} photo={"media/MEG.png"}
                 spotlink={"https://open.spotify.com/track/4Wxh8xoRERDVSJC8OQI9Iq?si=e462d9bd56d4492f"}
                 ytlink={"https://youtu.be/Occ-UjJ0vzg?si=m2IJQ_AjVsYvgdXl"}
                 applelink={"https://music.apple.com/us/album/m-e-g-feat-trisano-swell-mclovin-valeria-orrantia-single/1805966562"}
