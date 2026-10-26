@@ -1,9 +1,27 @@
 [
+{"title":"Déjate Llevar", "photo":"media/dejate.png", "artist": "PABLO.ANMUAR",
+"spotlink":"https://open.spotify.com/intl-es/track/0zvVf0ncEEPi0Qc4wSrVTq?si=dc0dfa28a8144e7a",
+"ytlink":"https://youtu.be/6LWOIAYZDPc?si=YqqBDoxL6FLAYpqW",
+"applelink":"https://music.apple.com/us/album/d%C3%A9jate-llevar/6802426069?i=6802426070",
+"credited":"dejatellevarcredit"},
+
+{"title":"Stay A While", "photo":"media/stayawhile.png", "artist": "Umé",
+"spotlink":"https://open.spotify.com/intl-es/track/6MIsLn9j3pFQ8eeCdGEfpi?si=5d8a95327f5347bf",
+"ytlink":"https://youtu.be/cO5hFctuPLc?si=4DnMc_60Kz9qaSrs",
+"applelink":"https://music.apple.com/us/album/stay-a-while-single/6786024002",
+"credited":"stayawhilecredit"},
+
 {"title":"Self Titled 2026", "photo":"media/burnba.jpg", "artist": "Burn Babylon",
 "spotlink":"https://open.spotify.com/intl-es/artist/7KcOtw9zJrD24mVPwpFGEu?si=AKWOT7EyTw2E1ijKsMr4IQ",
 "ytlink":"https://youtube.com/playlist?list=OLAK5uy_mZKQd94joeBs0k59jrDj1LiclunmF3bN0&si=iwyqUJHRexsGVtCQ",
 "applelink":"https://music.apple.com/us/album/self-titled-2026/6767841132",
 "credited":"burnbacredit"},
+
+{"title":"For the First Time", "photo":"media/4d1stx.jpg", "artist": "PABLO.ANMUAR",
+"spotlink":"https://open.spotify.com/intl-es/track/152GowTGYq2q9ztKUjyGRT?si=3e28e26eb6f24e3a",
+"ytlink":"https://youtu.be/vxUnTcf97fU?si=maX_j0gY1muBCdFv",
+"applelink":"https://music.apple.com/us/album/for-the-first-time/1878107559?i=1878107560",
+"credited":"d1stxcredit"},
 
 {"title":"Ever Since U Left Me (I Went Deaf)", "photo":"media/esylm.jpg", "artist": "French Montana x Max B",
 "spotlink":"https://open.spotify.com/intl-es/track/5ehgf6op0j2sE4lqjiTkMY?si=43ed83bf87784cba",
